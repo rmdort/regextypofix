@@ -1,8 +1,0 @@
-<Typo word="Kåldolmar" find="\b([Kk])aldolmar\b" replace="$1åldolmar"/>
-<Typo word="Kazakhstan" find="\b[Kk]azah?kstan(is?)?\b" replace="Kazakhstan$1"/>
-<Typo word="Kindergarten" find="\b([Kk])in[dt]erga(?:t|rd)(ens?)\b" replace="$1indergart$2"/>
-<Typo word="Knife" find="\b([Kk])nive\b" replace="$1nife"/>
-<Typo word="(Ac)Knowledge" find="\b(K|k|[Aa]ck)nowl(?:d?eg|ed|egd?)(e[ds]?|ing|ements?|eab[a-z]+)\b" replace="$1nowledg$2"/>
-<Typo word="Kraków" find="\b([Kk])rakow\b(?<!(Jonah|Kenneth|Kenneth K.) Krakow)(?!\s[Tt]ownship)" replace="$1raków"/><!--not Jonah Krakow, Kenneth (K.) Krakow or Krakow Township-->
-<Typo word="Kroužek" find="\b([Kk])rouzek\b" replace="$1roužek"/>
-<Typo disabled="Kümmel" find="\b([Kk])ummel\b" replace="$1ümmel"/><!--False positive Bernhard Kummel i.e (Kummel 1964)-->

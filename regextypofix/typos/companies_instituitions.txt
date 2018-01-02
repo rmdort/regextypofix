@@ -1,6 +1,0 @@
-<Typo word="Disney World" find="\b[Dd]isney[Ww]orld\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Disney World"/><!--Not domains and URLs-->
-<Typo word="Disneyland" find="\b[Dd]isney(\s+[Ll]|L)and\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Disneyland"/><!--Not domains and URLs-->
-<Typo word="Harvard" find="\bharvard\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Harvard"/><!--Not domains and URLs-->
-<Typo word="IBM" find="\b[Ii]bm\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="IBM"/><!--Not domains and URLs-->
-<Typo word="Microsoft" find="\b(?:micros|[Mm]icors|[Mm]icro[S\$])oft\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Microsoft"/><!--Not domains and URLs-->
-<Typo word="TiVo" find="\b(?:Tiv|ti[Vv])o('?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="TiVo$1"/><!--Not domains and URLs-->

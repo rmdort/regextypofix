@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='regextypofix',
-    version='1.0.3',
+    version='1.0.4',
 
     # PyPI metadata
     author='Vinay M',
@@ -37,7 +37,7 @@ setup(
     packages=['regextypofix'],
     entry_points={'console_scripts': ['regextypofix = regextypofix.main:correct']},
     package_data={
-        '': ['*.txt']
+        '': ['typos/*.txt']
     },
     install_requires=[
         'regex>=2016.07.14'

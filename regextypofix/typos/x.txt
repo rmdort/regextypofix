@@ -1,1 +1,0 @@
-<Typo word="Xbox" find="\b[Xx][-\s]?[Bb][Oo][Xx]([e\']?s)?\b(?<!Xbox([e\']?s)?)(?!\sbinding)(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Xbox$1"/><!--Not false positive X-box binding protein-->

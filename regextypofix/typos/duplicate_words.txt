@@ -1,2 +1,0 @@
-<Typo word="it is" find="\b([Ii])t\s+it\b" replace="$1t is"/>
-<Typo word="Duplicated words" find="\b(a[mns]?|and|are|b(?:ecome|[ey])|did|[dgnt]o|for|h(?:ave|im|ow)|i[fst]s?|m(or)?e|o[fr]|other|s?he|the(?:ir|[mny]|se)?|th[iu]s|[hw]as|were|wh(?:at|ere|en|ich|om?|y)|with|(?:c|sh|w)ould|made)\s+\1\b" replace="$1"/><!--don't add "in", per talk in Archive 3-->

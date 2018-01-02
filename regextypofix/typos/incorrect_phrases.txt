@@ -1,7 +1,0 @@
-<!--Do NOT extend the below rule to "based around".
-Regardless of the FP rate, an incorrect change could render text nonsensical.-->
-<Typo word="Based (off) of" find="\b([Bb])ased\s+(?<!-[Bb]ased)(off\s+)?of\b" replace="$1ased on"/>
-<Typo word="et al." find="\bet(\.\s*al\b\.?|\s+al\b(?!\.))" replace="et al."/>
-<Typo word="known as" find="\b(is|w?as|are|were|became|or|but|perhaps|been|(?:usual|wide|normal|general|common|most)ly|well|better|best|often|[Aa]lso)\s+know(?:s|ed)?\s+(as|for)\b" replace="$1 known $2"/>
-<Typo word="the first time" find="\b([Tt])he\s+(very\s+)?fr?ist\s+time\b" replace="$1he $2first time"/>
-<Typo word="per se" find="\bper\s+say\b" replace="per se"/>

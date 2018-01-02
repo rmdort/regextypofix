@@ -1,1 +1,0 @@
-<Typo word="Comprises" find="\b([Cc])omprises of\b" replace="$1omprises"/>

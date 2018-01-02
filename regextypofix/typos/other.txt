@@ -1,1 +1,0 @@
-<Typo word="Between ... and" find="\b([Bb]etween (?:[0-9,.]+|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|(?:twen|thir|four|for|fif|six|seven|eigh|nine)(?:teen|ty)) )to\b" replace="$1and"/>
