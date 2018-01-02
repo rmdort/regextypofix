@@ -1,9 +1,7 @@
 RegEx Typo Fix
 ====
 
-Regex spellchecker based on Wikipedia's `RegExTypoFix` project
-
-.. _RegExTypoFix: https://en.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser/Typos
+Regex spellchecker based on Wikipedia's RegExTypoFix_ project
 
 The dictionary prepared by wikipedia contains most common incorrectly spelled words.
 
@@ -36,3 +34,8 @@ You can either create your own dictionary or just append to the default dictiona
 
     correct('whiel selled', dictionary=dictionary)
 
+
+Other RegExTypoFix libraries: Topy_
+
+.. _Topy: https://github.com/intgr/topy/
+.. _RegExTypoFix: https://en.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser/Typos
