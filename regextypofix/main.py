@@ -36,7 +36,7 @@ def create_dictionary (typoFolder = None):
             t.append(m)
 
         dictionary.append(t)
-  logging.info('Total words in dictionary %s', len(dictionary))
+  log.info('Total words in dictionary %s', len(dictionary))
   return dictionary
 
 def correct (text, dictionary=None):
