@@ -1,0 +1,36 @@
+<Typo word="Vacuum" find="\b([Vv])ac(?:cuum|c?ume?)(s?|ed|ing)\b" replace="$1acuum$2"/>
+<Typo word="Variety" find="\b([Vv])(?:ar[ia]+t|r?iet|ri?eit|arie)(ies|y)\b" replace="$1ariet$2"/>
+<Typo word="(Junior/Senior) varsity" find="\b([Jj]u|[Ss]e)niors\s+varsity\b" replace="$1nior varsity"/>  
+<Typo word="Vegetable" find="\b([Vv])eg[ai]?tabl(es?)\b" replace="$1egetabl$2"/>
+<Typo word="Vegetarian" find="\b([Vv])eg(?:et(?:ter?|er)|ata)rian(s?|ism)\b" replace="$1egetarian$2"/>
+<Typo word="Vehicle" find="\b([Vv])ehic[aeu]le?(s)?\b" replace="$1ehicle$2"/>
+<Typo word="Vengeance" find="\b([Vv])eng[ea]nce\b" replace="$1engeance"/>
+<Typo word="Venomous" find="\b([Vv])en[aei]mous\b" replace="$1enomous"/>
+<Typo word="Verify" find="\b([Vv])era?f(y|ie[ds]|ying|ications?)\b" replace="$1erif$2"/>
+<Typo word="(Ad/…)Version" find="\b([Aa]d|[Cc]on|[Dd]i|[Ii]n|[Oo]b|[Pp]er|[Rr]e|[Ss]ub)?([Vv])er(?:is|ti)o(ns?)\b" replace="$1$2ersio$3"/>
+<Typo word="(In)Vertebrate" find="\b(V|v|[Ii]nv)ertibrate(s?)\b" replace="$1ertebrate$2"/>
+<Typo word="Vertical" find="\b([Vv])erticle(s?)\b" replace="$1ertical$2"/>
+<Typo word="Very" find="\b([Vv])(?:eyr|rey|yer|yre)\b" replace="$1ery"/>
+<Typo word="Veteran" find="\b([Vv])erter(ans?)\b" replace="$1eter$2"/>
+<Typo word="Veterinary" find="\b([Vv])er?t(?:[ea]?r[aei]?|[eai])n[ae](?<!eterina)r(y|ians?)\b" replace="$1eterinar$2"/>
+<Typo word="Vicinity" find="\b([Vv])(?:(?:a|in)cini|[ai]cin)t(y|ies)\b" replace="$1icinit$2"/>
+<Typo word="Victory" find="\b([Vv])itor(y|ies|ious(ly)?)\b" replace="$1ictor$2"/>
+<Typo word="View" find="\b(?:Vei|Wie)w(ing|ers?|ed|able)\b(?<!Wiewer)" replace="View$1"/>
+<Typo word="View" find="\b(?:vei|wie)w(ing|ers?|ed|able)\b" replace="view$1"/>
+<Typo word="Vigilance" find="\b([Vv])ig(?:[ae]?la|[iea]le)n([ct][a-z]*?)\b" replace="$1igilan$2"/>
+<Typo word="Vigorous" find="\b([Vv])ig(?:[aei]rou?|oro)s(ly|ness)?\b" replace="$1igorous$2"/>
+<Typo word="Vilify" find="\b([Vv])il(?:li|l?a)f(y|ie[ds]|ying|ications?)\b" replace="$1ilif$2"/>
+<Typo word="Village" find="\b([Vv])il(?:a|l?i|le?)ge(r?s?)(?<!illigers?|Villeger)\b" replace="$1illage$2"/>
+<Typo word="Villain" find="(?!\bVilain\b)\b(V|v|[Ss]uperv)il(?:l?ia|ai)n(s?|y|ous[a-z]*|ess)\b" replace="$1illain$2"/><!--Don't match surname Vilain-->
+<Typo word="Violence" find="\b([Vv])iolentce\b" replace="$1iolence"/>
+<Typo word="Virtual" find="\b([Vv])irutal(ly)?\b" replace="$1irtual$2"/>
+<Typo word="Viscosity" find="\b([Vv])iscocit(y|ies)\b" replace="$1iscosit$2"/>
+<Typo word="Visit" find="\b([Vv])is(?:is)?t(ing|ed|ors?)\b" replace="$1isit$2"/><!--don't find "visiter"-->
+<Typo word="(Di/Pa/Pro/Reple/Super/Tele)Visor" find="\b([Dd]i|[Pp](?:a|ro)|[Rr]eple|[Ss]uper|[Tt]ele)([Vv])iser([a-z]*)\b" replace="$1$2isor$3"/>
+<Typo word="Volcano" find="\b([Vv])ol?lcanoe\b" replace="$1olcano"/>
+<Typo word="Volkswagen" find="\b[Vv]olkswagon(s?)\b" replace="Volkswagen$1"/>
+<Typo word="Volley(ball)" find="\b([Vv])ol[el]y([ -]?ball)?(ed|ers?|ing|s?)\b(?<!\bVol[le]y\b)" replace="$1olley$2$3"/>
+<!--Don't match proper nouns Volly/Voley unless followed by " ball" --->
+<Typo word="(In)Voluntary" find="\b(V|v|[Ii]nv)ol[oe]ntary\b" replace="$1oluntary"/>
+<Typo word="Volunteer" find="\b([Vv])ol(?:ante?|unt|ou?nte?|l[ou]nte?)er(ed|ing|s?)\b" replace="$1olunteer$2"/>
+<Typo word="Vomit" find="\b([Vv])omitt(s?|e[dr]|ing)\b" replace="$1omit$2"/>

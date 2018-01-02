@@ -1,0 +1,271 @@
+<Typo word="-XXX(ed/er/ing/ive)" find="\b([A-Za-z]+[aeiou])([bdfgklmnprstvz])\2{2,}(ed|[eo]rs?|i(ng|ve|on)s?)\b" replace="$1$2$2$3"/>
+<Typo word="-able (1)" find="\b([IiUu]n)?([Aa]ccept|[Aa]rgu|[Cc]ap|[Cc]onfigur|[Ff]orgiv|[Hh]ospit|[Mm]istak|[Nn]ot|[Oo]ppos|[Ss]cal|[Tt]ranslat|[Uu]s|[Vv]alu|[Vv]ulner)(?:ea?|[eiu]a?)b(l[ey]|ilit(?:y|ies))\b" replace="$1$2ab$3"/>
+<Typo word="-able (2)" find="\b((?:[IiUu]n)?[Dd]e)(bat|cid|fin|form|grad|[lt]ect|not|pend|plor|p?riv|sir|spi[cs])(?:ea|i)bl([ey])\b" replace="$1$2abl$3"/>
+<Typo word="-able (3)" find="\b((?:[IiUu]n)?[Rr]e)(ad|ason|charge|cogni[sz]|concil|cover|cycl|deem|mark|mov|new|pai?r|pea[lt]|place|put|view|voc)(?:ea?|[eiu]a?)b(l[ey]|ility)\b" replace="$1$2ab$3"/>
+<Typo word="-acious" find="\b([A-Za-z]+)acitous(?<!anthracitous)(ness(?:es)?|ly)?\b" replace="$1acious$2"/>
+<Typo word="-acity" find="\b([A-Za-z]+)act?iy\b" replace="$1acity"/>
+<Typo word="-ail(ed/ing)" find="\b([BbFfHhJjmNnRrSsTtw]?|[Tt]r)aill(ed|ing)\b" replace="$1ail$2"/><!--don't find surnames "(M/W)ailling"-->
+<Typo word="-aking" find="\b([Mm]is|[Rr]e)?([BbFfMmRrTtWw]|[LlPp]e|[BbCcFfWw]re|[Ss](?:[hlnot]|[np]e|[ct]re))kaing(s)?\b" replace="$1$2aking$3"/>
+<Typo word="-ality" find="\b([DdQq]u|[Ee]qu|[FfNn]at|[FfNn]orm|[LlRr]eg|[Ll]oc|[Rr]e|[Tt]o[nt]|[Vv]it)all+it(y|ies)\b" replace="$1alit$2"/>
+<Typo word="-ally (1)" find="\b([A-Za-z]+(?:[cdglntv]i|nt|ic|io?n|er|ot|son))aly\b(?<!Finaly|qualy)" replace="$1ally"/>
+<!--Don't match B(r)ialy, Castaly, Finaly, qualy--><!--see also "-ically", "-ually"-->
+<Typo word="-ally (2)" find="\b([A-Za-z-]+(?:ic?|[enu]))alyl?\b(?<!(?:Ann?|Ballyhe|[Bb]r?i|Bon|Conne|Cre|De|Don|Dou|Fe|Fin|Glene|Gre|He|Kenn?e|Kan|Ke|Kilte|Kinn?s?e|McNealy|[Mm]e|Nan|Ne|Que?|Se|She|Sme|Spezi|Whe|Vit)aly|(?:[Ss]i|[Ll]in)alyl)" replace="$1ally"/><!--Don't match many proper names-->
+<Typo word="-alty" find="\b([Aa]dmir|[Cc]asu|[Dd]isloy|[LlRr]oy|[Mm]ayor|[Pp]en)(?:alit|atl|lat)(y|ies)\b" replace="$1alt$2"/><!--see also "-lty"-->
+<Typo word="-ament" find="\b([Ff]il|[Ll]ig|[Tt]est|[Tt]ourn)ia?ment(s?|ary)\b" replace="$1ament$2"/>
+<Typo word="-anging" find="\b((?:[Pp]?[Rr]e)?[Aa]rr|(?:[Ee]x|[Ii]nter|[Ss]hort|[Uu]n)?[Cc]h|[Dd]er|R|r)an(?:gei|egi)?ng\b" replace="$1anging"/>
+<Typo word="-anical" find="\b([Bb]ot|[Mm]ech|[Pp]urit|[Ss]at)annical(s?|ly)\b" replace="$1anical$2"/>
+<!--"-ance" & "-ant" errors, some separated rules for convenience, grouped together here-->
+<Typo word="-an(ce/t)" find="\b([Aa]dam|[Aa](?:bu|tte)nd|(?:[Dd]is|[Rr]e)?[Aa]ppear|(?:[Rr]e)?[Cc]ogni[sz]|(?:[Aa]s|[Cc]on|[Dd]is)son|[Dd]efend|[Ii]gnor|[Mm]erch|[Oo]xid|[Ss]erv|[Vv]ac)(?:en|and)(ts?|tly|ci?es?|cy)\b" replace="$1an$2"/>
+<Typo word="-(t)an(ce/t)" find="\b([Aa](?:ccep|cqu(?:ain|it)|dmit)|[Bb]la|(?:[Nn]on)?[Cc]omba|[Ee]xpec|(?:[Ii]n)?[Hh](?:ab|e[rs])i|[Ii]mp[ao]r|[Mm]ili|[Pp]it|[Rr]e(?:luc|mit|pen))t[ei]n((?:c[eiy]|t(?<!\b[Rr]emittent))[a-z]*)\b" replace="$1tan$2"/><!--allow remittent-->
+<Typo word="-(st)ance" find="\b([Aa]ssi|[Cc]on|[Dd]i|[Ii]n|[DdRr]esi|[Ss]ub)st[ei]n(ci?[ey][ds]?|t[a-z]*)\b(?<!\b[Dd]istention\b)" replace="$1stan$2"/>
+<Typo word="-(st)ant" find="\b([Aa]ssi|[Cc]on|[Ii]ncon|[Dd]i|[Ii]n|[Rr]esi)st(?:atn|ent)(s?|ly)\b" replace="$1stant$2"/>
+<Typo word="-ard(s/ian/son)" find="\b([Ee]dw|[Hh]ow|[Rr]ich)rad((son)?s?|ians?)\b" replace="$1ard$2"/>
+<Typo word="-ary" find="\b([Bb]ound|[Dd]iction|[Ll]egend|[Pp]rim|[Ss](?:al|econd)|[Tt]ern)e?r(y|ies)\b" replace="$1ar$2"/>
+<Typo word="-asion" find="\b([Aa]br|[Ee]v|[Ii]nv|[Oo]cc|[Pp]ersu)ation(s?|al(ly)?)\b" replace="$1asion$2"/>
+<Typo word="-ately_" find="\b([A-Za-z]+[bcdgimstv])atly\b" replace="$1ately"/>
+<Typo word="-athlon" find="\b([Bb]i|[Dd]ec|[Hh]ept|[Pp]ent|[Tt]ri)ath[ae]l(ons?|etes?)\b" replace="$1athl$2"/>
+<Typo word="-atian" find="\b(Als|Dalm|Gal)atio(ns?)\b" replace="$1atia$2"/>
+<Typo word="-atile" find="\b(V|v|[Nn]onv)(ers|ol)itile(ly|ness)?\b" replace="$1$2atile$3"/>
+<Typo word="-atility" find="\b([Vv])(ers|ol)it(?:ila|i?li)t(y|ies)\b" replace="$1$2atilit$3"/>
+<Typo word="-ation" find="\b([A-Za-z]+)ati?oin(s?|al(ly)?|ed|ing)\b" replace="$1ation$2"/>
+<Typo word="-atious" find="\b([Ff]lirt|[Oo]stent|[Vv]ex)ac(ious[a-z]*)\b" replace="$1at$2"/>
+<Typo word="-atoes" find="\b([Pp]ot|[Tt]om)atos\b" replace="$1atoes"/>
+<Typo word="-berg" find="\b([Hh]eidel|[Nn]urem|[Ww][uü]rt+em|[Tt]?[Aa]nnen)bo?urg\b" replace="$1berg"/><!--don't match Gutenburg-->
+<Typo word="-burg" find="\b([Gg]ettys|[Gg]othen|[Hh]a[bp]s|[Ll]ynch|[Vv]icks)b(?:e|ou)rg\b" replace="$1burg"/>
+<Typo word="-bility" find="\b([A-Za-z]+)b(?:il|li)(?:li?)?t(y|ies)\b" replace="$1bilit$2"/>
+<Typo word="-builder" find="\b([Bb]ody|[Hh]ome|[Ss]hip)[d\-]build(ers?|ing)\b" replace="$1build$2"/>
+<Typo word="-cede (1)" find="\b([RrSs]ec|[Pp]rec|[Cc]onc|[Ii]nterc|[Aa]ntec|c|C)eed(e[ds]?|ers?|ing|ents?)\b" replace="$1ed$2"/>
+<Typo word="-cede (2)" find="\b([RrSs]ec|[Pp]rec|[Cc]onc|[Ii]nterc|[Aa]ntec|c|C)eed(s?)\b" replace="$1ede$2"/>
+<Typo word="-cedent" find="\b([Pp]r|[Uu]npr|[Aa]nt)ec(?:en|i)den(t(s?|ed(ly|ness)?|less|ial)|c[ey])\b" replace="$1eceden$2"/>
+<Typo word="-cei(p)t" find="\b([Cc]on|[DdRr]e)cie(p?t)(s?|ed|ful|fully)\b" replace="$1cei$2$3"/>
+<Typo word="-ceive" find="\b([DdRr]e|[AIMRUaeimnprsu]*[Pp]er|[IMPRUaeilmnprsu]*[Cc]on|[Tt]rans)c(?:e?ie|i?e?)v(e[ds]?|ers?|ing|ership|ables?)\b" replace="$1ceiv$2"/>
+<Typo word="-ceiving" find="\b([RrDd]e|[AIMRUaeimnprsu]*[Pp]er|[IMPRUaeilmnprsu]*[Cc]on|[Tt]rans)c(?:ie|ei)ve(ing|ables?)" replace="$1ceiv$2"/>
+<Typo word="-ceps" find="\b([Qq]uadr|[Tt]r)icep(ts?)?\b" replace="$1iceps"/>
+<Typo word="-cidental(ly)" find="\b([Aa]c|(?:[Cc]o)?[Ii]n)c(?:ident(?:a|ial)|edenti?al?)(s?|ly)\b" replace="$1cidental$2"/>
+<Typo word="-cious" find="\b([Cc]ons|[Gg]ra|[Jj]udi|[Ll]us|[Mm]ali|[Pp]re(?:|co|da)|[Ss]p[ae]|[Ss]uspi|[Vv][eo]ra|[Vv]i)(?:ci?oui|ci?oiu|ciuo|sciou)s(ly|ness)?\b" replace="$1cious$2"/>
+<Typo word="-(c/l/t)ious" find="\b([A-Za-z]+[clt])ioous([a-z]*)\b" replace="$1ious$2"/>
+<Typo word="-cipient" find="\b([Rr]e|[Ee]x|[Ii]n|[Pp]er)c(?:epie|ipia)n(ts?|c[ey]|tly)\b" replace="$1cipien$2"/>
+<Typo word="-claim" find="\b([Aa]c|[DdRr]e|[Dd]is|[Ee]x|[Pp]ro)cliam((er)?s?|ed|ing)\b" replace="$1claim$2"/>
+<Typo word="-clamation" find="\b([DdRr]e|[Ee]x|[Pp]ro)cl(?:ai|o)mat(ions?|ory)\b" replace="$1clamat$2"/>
+<Typo word="-clude" find="\b([Cc]on|[Ee]x|[Ii]n|[Oo]c|[Pp]re|[Ss]e)culd(e[ds]?|ing)\b" replace="$1clud$2"/>
+<Typo word="-clusion" find="\b([Cc]on|[Ee]x|[Ii]n|[Oo]c)lu(de[ds]?|ding|sions?|sive(ly)?)\b" replace="$1clu$2"/>
+<Typo word="-comer" find="\b([Ii]n|[Ll]ate|[Nn]ew|[Ww]el)commer(s?)\b" replace="$1comer$2"/>
+<Typo word="-courage" find="\b([Ee]n|[Dd]is)co(?:urge?|urage|rage?)(e(d|r?s?)|ing(ly)?)\b" replace="$1courag$2"/>
+<Typo word="-covered" find="\b([DRUdeinrsu]*[Cc])overd\b" replace="$1overed"/>
+<Typo word="-crease" find="\b([Ii]n|[Dd]e)cres(e[drs]?|ing(ly)?|able)\b" replace="$1creas$2"/>
+<Typo word="-cumbent" find="\b([Ii]n|[RrDd]e)cumban(ts?|cy|cies|tly)\b" replace="$1cumben$2"/>
+<Typo word="-current" find="\b([Cc]on|[Rr]eoc|[Oo]c|[Rr]e)cur(?:e|r?a)n(t(ly)?|ces?)\b" replace="$1curren$2"/>
+<Typo word="-cycle" find="\b([Bb]i|[Tt]ri|[Uu]ni|[Mm]otor|[Rr]e|[Ee]pi)(?:cylc?|cicl)([aei][a-z]*)\b(?<!Tricicle|icicleta)" replace="$1cycl$2"/><!--excludes Tricicle theatre group-->
+<Typo word="-dition" find="\b([Aa][du]|[Cc]on|E|e|[Ee]xpe|[DdSs]e|[Pp]er|[Rr]en?|[Tt]ra)(?:d?idtio|dit[io]|[di]tio|dt?io|dition|dititio)n(s?|al(ly)?|ed|ing|ary)\b(?<![Aa]udions?)" replace="$1dition$2"/><!--don't match Audion-->
+<Typo word="-dolence" find="\b([Cc]on|[Ii]n|[Rr]e)dolan(ces?|t(ly)?)\b" replace="$1dolen$2"/>
+<Typo word="-dth" find="\b([Bb]andwi|[Hh]a(?:ir|nds?)brea|[Hh]undre|[Tt]housan)th(s?)\b" replace="$1dth$2"/>
+<Typo word="-ducible" find="\b([Cc]on|[DdRrSs]e|[Ii]n|(?:[Ii]r)?[Rr]e(?:pro)?|[Pp]ro)duce?ab(l[ey]|ility)\b" replace="$1ducib$2"/>
+<Typo word="-ductible" find="\b([Dd]e|[Nn]onde|[Cc]on|[Ii]n)ductab(l[ey]|ility)\b" replace="$1ductib$2"/>
+<Typo word="-duction" find="\b([Aa](?:[bd]|utopro)|[Cc]o(?:n|pro)|[Dd]e(?:|xtro)|[Hh]yperpro|[Kk]inopro|[Ii]n(?:|tro)|[Nn]onpre|[Oo]verpre|[Pp](?:ostpre|r[eo])|[Rr]e(?:pro|tro|intro|d?)|[Ss](?:u(?:perpro|rpro)|e)|[Uu]nderpro|[Yy]pro)du(?:ci|ct|ti)on(s)?\b" replace="$1duction$2"/>
+<Typo word="-ductor" find="\b([Aa][bd]|[Cc]on|[Dd]e|[Ii]n)ducte(rs?)\b" replace="$1ducto$2"/>
+<Typo word="-eable" find="\b([Uu]n|[Ii]r)?([Cc]halleng|[Kk]nowledg|[Nn]otic|[Rr]eplac)[ai]bl([ey])\b" replace="$1$2eabl$3"/>
+<Typo word="-eaning" find="\b([A-Za-z]+)ea(?:nin|nni)ng\b" replace="$1eaning"/>
+<Typo word="-ecession" find="\b([RrSs]|[Pp]r)ec(?:c?e|ces)sion(s?|al|ists?|ism)\b" replace="$1ecession$2"/>
+<Typo word="-elie(f/ve)" find="\b([BbRr]|[DdMm]isb|[Nn]onb|[Uu]nb)eleie?(fs?|ver?[ds]?|ving|vabl[ey])\b" replace="$1elie$2"/>
+<Typo word="-ely" find="\b([IiUu]n)?([Aa]ctiv|[Cc]los|[Dd]ens|[Ee]ntir|[Ff]als|[Ff]ierc|[Ii]mmens|[Ll](?:arg|at|i[kv]|on)|loos|[Nn]am|[Pp]recis|[Ss](?:ev|inc)er|[Ss]pars|[Ww]id)l+e?y\b(?<!Densley)" replace="$1$2ely"/>
+<!--"-ence" & "-ent" errors, grouped here-->
+<Typo word="-en(ce/t)" find="\b([Aa]ccid|[Cc]li|[Ee]xcell|[Ii]ngredi|[Ll]eni|(?:[Dd]is)?[Oo]bedi|[Ss]uperintend|[Tt]ranscend|[Vv]iol)an(c[ey]|t[a-z]*)\b(?<!Violant[ae])" replace="$1en$2"/><!--don't match the name Violante/Violanta-->
+<Typo word="-ently" find="\b([Aa]ppar|[Cc]urr|[DdRr]ec|[Ss]il|[Ii]nt|[Ee]vid|[Pp]res)enlty\b" replace="$1ently"/><!--see also "-equently"-->
+<Typo word="-(t)ence" find="\b((?:|[Ii]n)(?:[Aa]dver|[Cc]ompe)|[Ll]a|(?:|[Ii]m)[Pp](?:eni|o|re)|sen)tan(ts?|tly|tial|ci?es?|cy|ced)\b" replace="$1ten$2"/>
+<Typo word="-(ist)ence" find="\b((?:|[Ii]n)[Cc]ons|(?:|[Cc]o|[Nn]on|[Pp]re)[Ee]x|[Ii]ns|[Ss]ubs)ist[ai]n(ci?[ey]s?|t[a-z]*)\b" replace="$1isten$2"/>
+<!--end "-ence" errors-->
+<Typo word="-enness" find="\b([Dd]runk|[Ee]v|[Kk]e|[Oo]p|[Ss][ou](?:dd|ll))eness\b" replace="$1enness"/>
+<Typo word="-ennial" find="\b([Pp]er|(?:[Bb]i|[Tt]ri|[Ss]e(?:m|squ)i|[Qq]uadri?)(?:cent)?|[Qq]uin(?:t|qu)|[Cc]ent|[Mm]ill)e(?:nte|)nial([a-z]*)\b" replace="$1ennial$2"/>
+<Typo word="-eous" find="\b([Dd]is|[Ss]ub|[Uu]n)?([Cc](?:ourt|rustac|utan)|[Gg]as|[Gg]org|[Hh]erbac|[Ii]gn|[Ii]nstantan|[Pp]roteinac|[Rr]ight|[Ss]pontan|[Vv]itr)(?:e?uo|iou)(s[a-z]*)\b" replace="$1$2eou$3"/><!--see also "-geneous"-->
+<Typo word="-equently" find="\b([Cc]ons|[Ff]r|[Ii]nfr|[Ss]ubs)en?qu(?:enlt|antl|entil+|entual+)y\b" replace="$1equently"/>
+<Typo word="-ereal" find="\b([Ee]th|[Ss]id|[Vv]en)eri?al(ly)?\b" replace="$1ereal$2"/>
+<Typo word="-ertain" find="\b(C|c|[Ee]nt|[Uu]nc)ertia(n[a-z]*)\b" replace="$1ertai$2"/>
+<Typo word="-escent" find="\b([Aa](?:cqui|dol)|[Cc]o(?:|nv)al|[Cc]r|[Ee](?:fferv|van)|[Ii](?:ncan|ri)d|[Oo]bsol)e(?:cs?e|se|sca)n(ts?|ce)\b" replace="$1escen$2"/>
+<Typo word="-ese" find="\b([Cc]hin|[Dd]ioc|[Jj]a[pv]an|[Ll]eban|[Mm]alt|[Pp]ortugu|[Ss]iam)e[aes]se\b" replace="$1ese"/>
+<Typo word="-esident" find="\b([Pp]?r|R|[Nn]onp?r|[Cc]op?r)(?:ei?s|si)di?en(te?s?|c[ey]|[ct]ial(?:ly)?|cies|tiary|tships?)\b" replace="$1esiden$2"/>
+<Typo word="-etary" find="\b([Dd]i|[Mm]on||[Pp](?:lan|rol|ropri)|[Ss]ecr)(?:at[ae]|et[eo])r((il)?y|is[mt]s?|ies|ium?|ia[lt]?)\b(?<![Ss]ecretory|[Pp]roprietorial)" replace="$1etar$2"/>
+<Typo word="-ever" find="\b([Ff]or|[Hh]ow|[Ww]her)eever\b" replace="$1ever"/>
+<Typo word="-exper-" find="([Ee])pxer([a-z]+)\b" replace="$1xper$2"/> 
+<Typo word="-eys" find="\b([Aa]ttorn|[Cc]himn|[Dd]onk|[Jj]ers|[Jj]ourn|[Pp]ull|[Tt]urk)(?:ie|y)s\b" replace="$1eys"/>
+<Typo word="-fered" find="\b([Dd]if|[Oo]f|[Pp](?:il|rof)|[Ss]uf|[Ww]a)ferr(ed|ings?)\b" replace="$1fer$2"/>
+<Typo word="-ference" find="\b([Pp]?[RrDd]e|[A-Za-z]*[Cc]on|[Dd]if|[Ii]n(?:|dif|ter)|[A-Za-z]*[Tt]rans|[Cc]ircum)f(?:era?n|r[ae]n|f?ere?r[ae]n|f?erem|erne)(ce[drs]?|cing|t(ial)?(s?|ly))\b(?<!Defrance)" replace="$1feren$2"/>
+<Typo word="-fering" find="\b([A-Za-z]+fer)eing(s)?\b" replace="$1ing$2"/> 
+<Typo word="-ferred" find="\b([Cc]on|[Pp]?[DdRr]e|[Ii]n|[Tt]rans)f(?:e|fer?)r(ing|e[dr]|als?)\b" replace="$1ferr$2"/>
+<Typo word="-ficent" find="\b([Mm](?:ag|u)ni|[Bb]ene)f(?:ica|[ae]ce|icie)n(t(ly)?|ce)\b" replace="$1ficen$2"/>
+<Typo word="-ficial" find="\b([Ss](?:acri|uper)|[Uu]nof|[Oo]f|[Aa]rti)fical(s?|ly|ity)\b" replace="$1ficial$2"/>
+<Typo word="-field" find="\b([Aa]|[Aa]ir|[Bb]a(?:ck|ttle)|[Bb][lr]oo[km]|[Cc](?:an|hester|oal|orn)|[Dd]own|[Gg]a[rs]|[Hh]ome|[Ii]n|[Mm](?:a(?:ns|[ks]e)|id|ine)|[Oo]ut|[Oo]il|[Ss](?:cho||hef|now|pring)|[Uu]p)?feild([a-z]*)\b" replace="$1field$2"/><!--Don't match surname Feild-->
+<Typo word="-fifth" find="\b([Tt](?:wen|hir)|[Ff](?:or|if)|[Ss](?:ix|even)|[Ee]igh|[Nn]ine)ty-([Ff])ith\b" replace="$1ty-$2ifth"/>
+<Typo word="-finite" find="\b([Ii]n(?:de)?f|[Dd]ef|[Aa]ff)(?:finite?|f?in[ae]te?|f?init(?<!\bSRK Infinit)|ianite)(s?|ly|ness)\b" replace="$1inite$2"/><!--Not 'SRK Infinit'-->
+<Typo word="-finit(iv)e" find="\b([Dd]e|[Ii]n|[Ii]nde)f+inat([ei][a-z]*)\b" replace="$1finit$2"/>
+<Typo word="-first" find="\b([Tt](?:wen|hir)|[Ff](?:or|if)|[Ss](?:ix|even)|[Ee]igh|[Nn]ine)ty-([Ff])r?ist\b" replace="$1ty-$2irst"/>
+<Typo word="-flict" find="\b([Aa]f|[Cc]on|[Ii]n)fil?ct(s?|ing(ly)?|ed)\b" replace="$1flict$2"/>
+<Typo word="-fluent" find="\b([AaEe]f|[Cc]on|[Ii]n|[Ss]uper)f(?:ule|lua)n(c[ei][a-z]*|ti[a-z]+|ts?|tly)\b" replace="$1fluen$2"/>
+<Typo word="T(wo/hree/en/welve/wenty/hirty/housand)fold" find="\b([Tt])(wo|hree|en|welve|wenty|hirt(?:y|een)|housand)[\s]+fold(?!-)\b" replace="$1$2fold"/><!-- Don't match "two fold-out maps" -->
+<Typo word="(Four/Five/...)fold" find="\b([Ff](our|ive|orty|ift(y|een))|[Ss](ix|even)(teen|ty)?|[Ee](ight(y?|een)|leven)|[Nn]ine(teen|ty)?|[Hh]undred)[\s]+fold\b" replace="$1fold"/>
+<Typo word="-form" find="\b([Cc]on|[DdRr]e|[Pp]er|[Un]ni|[Pp]lat|[Ii]n)fr?om(s?|ed|ing|ati(ons?|ve(ly)?)|ly|ances?|ity)\b" replace="$1form$2"/>
+<Typo word="-fourth" find="\b([Tt](?:wen|hir)|[Ff](?:or|if)|[Ss](?:ix|even)|[Ee]igh|[Nn]ine)ty-([Ff])orth\b" replace="$1ty-$2ourth"/>
+<Typo word="-friend" find="\b([Bb]oy|[Gg]irl|[Bb]e|[Uu]n)freind(s?|ed|ly)\b" replace="$1friend$2"/>
+<Typo word="-ful" find="\b([Dd]is|[Uu]n)?([Bb]eauti|[Cc](?:are|heer)|[Ee]vent|[Gg]ra[ct]e|[Hh]elp|[Pp](?:eace|ower)|[Ss](?:poon|uccess)|[Uu]se|[Ww]onder)full(s?|ly|ness)\b" replace="$1$2ful$3"/>
+<Typo word="-fully" find="\b([A-Za-z]+ful)y\b" replace="$1ly"/>
+<Typo word="-gement" find="\b((?:A|a|[Rr]ea)rran|(?:E|e|[Dd]ise)nga|[Ee]n(?:go|la)r|[Ii](?:mp|nfr)in)gment(s?)\b" replace="$1gement$2"/>
+<Typo word="-geneity" find="\b(H|(?:[Ii]n)?h)(eter|om)ogenit(y|ies)\b" replace="$1$2ogeneit$3"/>
+<Typo word="-geneous" find="\b(H|(?:[Ii]n)?h)(eter|om)ogeni(ous[a-z]*)\b" replace="$1$2ogene$3"/>
+<Typo word="-geni(s/z)e" find="\b([A-Za-z]+gen)ei([sz][a-z]+)\b" replace="$1i$2"/>
+<Typo word="-gest" find="\b([Cc]on|[Dd]i|[Ii]n)jest(s?|ed|ing|ion|ives?)\b" replace="$1gest$2"/>
+<Typo word="-goes" find="\b([Ee]mbar|[JjLl]in|[Uu]nder)gos\b" replace="$1goes"/>
+<Typo word="-gogue" find="\b([Dd]em|[Ee]?m?[Mm]en|[Pp]ed|[Ss]yn)(?:agoug|ogogu?)e(s?)\b" replace="$1agogue$2"/>
+<Typo word="-grade" find="\b([Dd]e|[Dd]own|[Uu]p)gradd(e[ds]?|ing)\b" replace="$1grad$2"/>
+<Typo word="-(g/p)ressive" find="\b([A-Za-z]+[gp]res)i(ve[a-z]*|ons?)\b" replace="$1si$2"/>
+<Typo word="-ground" find="\b([Aa]bove|[Bb](?:ack|attle|elow)|[Cc]amp|[Ff](?:air|ore)|[Pp]lay|[Uu]nder)(?:gorun|roun|grou|goun)(d[a-z]*)\b" replace="$1groun$2"/>
+<Typo disabled="-handed" find="\b([Ll]ef|[Rr]igh)t\s*hande(d|rs?)\b" replace="$1t-hande$2"/><!--nothing wrong with separate words-->
+<Typo word="-herent" find="\b([Aa]d|[Cc]o|[Ii]n|[Ii]nco)he(?:a?ra|are)n(t[a-z]*|c[ey])\b" replace="$1heren$2"/>
+<Typo word="-hibition_" find="\b([Ee]x|[Ii]n|[Pp]ro)habiti(ons?|ve(ly)?)\b" replace="$1hibiti$2"/>
+<Typo word="-ian" find="\b(As|Christ|[Cc]ivil|Egypt|Ind|[Mm]usic|[Pp]edestr)ain(s?|ism|s?ity)\b" replace="$1ian$2"/>
+<Typo word="-ian(ce/t)" find="\b([Aa]lleg|[Bb]rill|[Rr]ad|Rel(?!ient\s+K)|rel|(?:V|v|[Ii]nv)ar)(?:ai|ie)n(ts?|ces?)\b" replace="$1ian$2"/><!--avoid false positive Relient K (band)-->
+<Typo word="-iation" find="\b([Aa](?:bbr|ll)ev|[Aa]ssoc|[Dd]ev|[Hh]umil|[Ii]nit|[Rr]ad|[Vv]ar)ati(ons?|ve)\b" replace="$1iati$2"/>
+<Typo word="-ible" find="\b([Ii][nr])?([Aa]ud|[Cc]r(?:ed|uc)|[Ee]d|[Ee]lig|[Ff]lex|[Hh]orr|[Tt]ang|[Tt]err|[Vv]inc)ab(l[ey]s?|ility)\b" replace="$1$2ib$3"/>
+<Typo word="-(s)ible" find="\b([Ii][mnr])?([Aa]dmis|[Dd]efen|[Dd]ivi|[Ff]ea|mer|[Oo]sten|[Pp](?:os|lau)|[Rr]ever|[SsTt]en|[Vv]i)sab(l[ey]|ility)\b" replace="$1$2sib$3"/>
+<Typo word="-(t)ible" find="\b([IiUu][mnr])?([Cc]o(?:rrup|nver|mpa)|[Pp]ercep|[Rr]esis|[Ss]ugges)tab(l[ey]|ility)\b" replace="$1$2tib$3"/>
+<Typo word="-ical" find="\b([Cc](?:lin|rit)|[Ee]lectr|(?:[Gg]eo|[Pp]ho[nt]o|[Tt]ele)[Gg]raph|[Ii]dent|[Ll]og|[Mm](?:ag|etaphor)|mus|[Pp](?:oli|rac)t|[Tt]echn|[Aa]?[Tt]r?[oy]p)(?:i?c|)ial(s?|ly)\b" replace="$1ical$2"/><!--Don't match Stan Musial-->
+<Typo word="-ically" find="\b([Aa]utomat|[Bb]as|[Cc](?:o[mn]|rit)|[Ee]lectr|[Ii]ron|[Mm](?:ag|us)|[Pp](?:rac|oli)t|[Ss]pecif)i(?:al|ca?)ly\b" replace="$1ically"/>
+<Typo word="-ictive" find="\b([A-Za-z]+)icitve(ly|s)?\b" replace="$1ictive$2"/>
+<Typo word="-iddle" find="\b([Gg]r|[FfMmRr])idle(s?|d)\b" replace="$1iddle$2"/>
+<Typo word="-idential" find="\b([Pp]?r(?:es|ov)|Res|[Cc]onf)identai?l(ly|ity)?\b" replace="$1idential$2"/>
+<Typo word="-iduous" find="\b([Dd]ec|[Aa]ss)idi?ous(ly)?\b" replace="$1iduous$2"/>
+<Typo word="-ield" find="\b([fWwYy]|[Uu]n[fwy]|[Ww]indsh)eild(s?|y|ed|ing|ers?|able)\b" replace="$1ield$2"/>
+<Typo word="-ification" find="\b([DdMm]is|[DdRr]e|)([Cc]ert|[Cc]lass|[Ee]lectr|[Ff]ort|[Ii]dent|[Mm]agn|[Mm]od|[Nn]ot|[Pp]erson|[Pp]ur|[Qq]ual|[Ss]pec|[Uu]n|[Vv]er)(?:fici?ati?|ifcati?|ificiati?|ificat)on(s)?\b" replace="$1$2ification$3"/>
+<Typo word="-ify" find="\b([DdMm]is)?([Hh]orr|[Ii]dent|[Qq]ual|[Rr]at|[Ss]pec|[Tt]err|[Vv]er)(?:[ao]f|i?fi)y(ing)?\b" replace="$1$2ify$3"/>
+<Typo word="-ight" find="\b([BbWw]?[Rr]|[FfSs]l?|[Kk]?[Nn])igth?(s?|ed|ing|er|l?y|life|hoods?)\b(?<!Sligting)" replace="$1ight$2"/>
+<Typo word="-ilities" find="\b([A-Za-z]+il)l+ities\b" replace="$1ities"/>
+<Typo word="-ily" find="\b([Uu]n)?([Aa]ngr|[Ee]as|[Hh]eav|[Ll]uck|[Mm]ight|[Pp]rimar|[Ss]atisfactor|[Ss]tead)(?:il|i?al?|)ly\b" replace="$1$2ily"/>
+<Typo word="-iness" find="\b((?:[Cc]r|[HhLl])az|[HhNnTt]ast|[FfSs]unn[DdFfGgLlMmRr]ust|[HhSs]ill|[Ll]o(?:[nv]e|rd|w)l|(?:(?:T|t|[Uu]nt)rustw|W|w)orth)yness\b" replace="$1iness"/>
+<Typo word="-ing" find="\b([Ee]n|[DdMm]is)?([CcDd]ar|[Cc]ontinu|[DdLl]anc|[Dd]r?iv|[Ff]eatur|[Ff]orc|[GgLl]iv|[HhRrSsWw]av|[BbCcFfMmRrTtWw]ak|[Nn]otic|[SsWw]hin|[Ss][kh]a[rtv]|[Uu]s)eing(s?)\b" replace="$1$2ing$3"/>
+<Typo word="-ining" find="\b([A-Za-z]+)inig(s?|ly)\b(?<!\b(?:(?:Br|Kl|M|H|St|W)e|Nar|Kurt|Lap|[Tt])inig\b)" replace="$1ining$2"/><!--Don't match (Br/Kl/M/H/St/W)einig, (Nar/Kurt/Lap/T)inig. 'ing' typos can be false positive i.e 'paintinig'-->
+<Typo word="-ionship" find="\b([Rr]elat|[Cc]hamp|[Cc]ompan)(?:ionsih?|oinshi)p(s?)\b" replace="$1ionship$2"/>
+<Typo word="-ish" find="\b([A-Za-z]+?)i?sih(ing(?:ly)?|e[ds]|ers?|ly)?\b(?<![AaersT]sih|Aisih|ingsih|Tlaksih|Mirajoucsih|Sumbangsih|Yingtsih)" replace="$1ish$2"/><!--Don't match proper names with -asih -esih -rsih -ssih, e.g., Bersih, Finarsih, Kasih, Kosasih, Madrasih, Masih, Massih, Messih, Nesih, Sukaesih, Nurnaningsih, Ningsih, Ariningsih, Yulianingsih, Asih, Tsih, Aisih, Tlaksih, Mirajoucsih, Sumbangsih, Yingtsih,-->
+<Typo word="-ism" find="\b([Aa]narch|[Cc]ritic|[Oo]rgan|[Pp]lagiar|[Tt]our)s?i(?:st)?m(s?)\b" replace="$1ism$2"/>
+<Typo word="-istry" find="([Aa]rt|[Cc]hem|[Dd]ent|[Mm]in|[Rr]eg)ist(ies|y)\b" replace="$1istr$2"/>
+<Typo word="-itch_" find="\b([DdHhPpWw]|[Ss][tw]|[Tt]w)ict?h(e[ds]|ing|(?<![Ww]ich)ers?)\b(?<!Picher)" replace="$1itch$2"/><!--don't find "swich", "wicher", "Picher"-->
+<Typo word="-itely" find="\b([A-Za-z]+[lnst])(?<![Qq]ual)itly\b" replace="$1itely"/>
+<Typo word="-ition" find="\b([Aa][du]d|[Aa]mb|[Cc]o(?:al|nd)|[Dd]emol|[Ee]d|(?:[Ee]x|[Ii]n|[Pp]ro)hib|[Ii]ntu|[Ii]g?n|[Pp]os|[Tt]rad|[Tt]u)it(?:oi?|ioi)n(s?|al(ly)?|is[mt]s?)\b" replace="$1ition$2"/>
+<Typo word="-itious" find="\b([Aa]mb|[Cc]ement|[Ff]ict|[Nn]utr|[Ss]ed)ic(ious[a-z]*)\b" replace="$1it$2"/>
+<Typo word="-itous" find="\b([Ff]ort|[Gg]rat|[Uu]biq)ui?tious(ly|ness)?\b" replace="$1uitous$2"/>
+<Typo word="-ively" find="\b([A-Za-z]+)ivly\b" replace="$1ively"/>
+<Typo word="-ives" find="\b([Aa]fterl|[Ll]|(?:[Aa]le|[Ee]x-|[Hh]ouse)?[Ww])ifes\b(?<!\b(?:(?:[Hh]alf-|[Ll]ow-|[Ss]till(?:-|\s+))[Ll]|Readers W)ifes)" replace="$1ives"/><!--Exclude FPs "half-lifes", "low-lifes", "still lifes", "Readers Wifes" (also knifes and midwifes are valid as verbs)-->
+<Typo word="-junction" find="\b([Cc]on|[Dd]is|[Ii]n|[Ss]ub)ju[cn]n?ti(ons?|ves?|vitis)\b" replace="$1juncti$2"/>
+<Typo word="-kel" find="\b([Ss]he|[Ss]nor|[Yy]o)kle(s?|ing)\b" replace="$1kel$2"/> 
+<Typo word="-keted" find="\b([Bb]lan|[Bb]rac|[JjPp]ac|[Mm]ar|[DdPpRrSs]oc)kett(ed|ing|s)\b" replace="$1ket$2"/>
+<Typo word="-king" find="\b([BbCcFfMmRrTtWw]a|([BbHhLlVv]|[Ss]tr)i)keing\b" replace="$1king"/>
+<Typo word="-(a/e/i/o/u)(c/n/o/r/s)king" find="\b([A-Za-z]+[aeiou][cnors])kign\b" replace="$1king"/>
+<Typo word="-licate" find="\b([Ee]xp|[Ii]mp)lict(e[ds]?|ing|ions?)\b" replace="$1licat$2"/>
+<Typo word="-licit (verb)" find="\b(E|e|[Ss]o)lic(?:id|t)(ors?|s?|ed|ing|ations?)\b" replace="$1licit$2"/>
+<Typo word="-licit (adjective)" find="\b([IiUu]?n?[Ee]xp|[Ii]mp|[Ii]l)lic(?:id|t)(ly)?\b" replace="$1licit$2"/>
+<Typo word="-lingual" find="\b(B|b|[Tt]r|[Uu]n|[Mm]ult)illingual([a-z]*)\b" replace="$1ilingual$2"/>
+<Typo word="-lithic" find="\b([Mm]ega|[Mm]ono|[Nn]?[Ee]o|]Pp]ala?eo)litic\b" replace="$1lithic"/>
+<Typo word="-lled" find="\b([Ii]nsta|[BbCcFfKkMmWw][ai])leld\b" replace="$1lled"/>
+<Typo word="-logue" find="\b([Mm]ono|[Dd]ia|[Ee]c|[Ee]pi|[Aa]na|[Pp]ro|[Ii]de[ao]|[Cc]ata)lou?g(e(?:[ds]?|rs?))\b(?<![Cc]ataloge(?:[ds]|rs?))(?<![Ee]piloges?)" replace="$1logu$2"/><!--don't convert cataloged, cataloges, cataloger, epiloge(s)-->
+<Typo word="-lty" find="\b([Cc]rue|[Dd]ifficu|[Ff]ac?u|[Gg]ui|[Nn]ove|[Ss]pecia|[Ss]ubt[ei])tl(y|ier|iest?|iness)\b" replace="$1lt$2"/><!--see also "-alty"-->
+<Typo word="-lytic" find="\b((?:[Pp]sycho)?[Aa]na|(?:[Aa]uto)?[Cc]ata|[Ee]lectro)litic(s?|al(ly)?)\b" replace="$1lytic$2"/>
+<Typo word="-men's" find="\b([Cc]hair|[Ff]ore|[Gg]entle|[Ww]o)men(?:s['′’]s?['′’]?|;?s['′’]?)\b(?:['′’](?!'))?" replace="$1men's"/>
+<Typo word="-ment" find="\b([A-Za-z]*(?:[Aa](?:gree|rma|rrange)|[Dd]ocu|[Pp]ay)|[Aa](?:mend|rgu)|[Ee](?:nviron|xperi)|[Ii]mprove|[Ss](?:eg|tate))m(?:a?n|etn|emt|net)(s?|ed|a[lr][a-z]*)\b(?<!Segman)" replace="$1ment$2"/><!--do not match surname Segman-->
+<Typo word="-mentaries" find="\b([Cc]om|[Dd]ocu)mentare?ys\b" replace="$1mentaries"/>
+<Typo word="-mentary" find="\b([Aa]li|[Cc]om(?:pl[ei])?|[Dd]ocu|[Ee]le|[Ff]rag|[Mm]o|[Pp]arlia|[Rr]udi|[Ss]edi|[Ss]upple)men(?:atr|te?r|ta)(y|ies|ily|ians?)\b" replace="$1mentar$2"/>
+<Typo word="-mina(nt/te)" find="\b([Cc]onta|[Dd]eter|[DdNn]o|[GgSs]e|[Pp]redo|[LlRr]u)min(?:e|ia)(nt(ly)?|nces?|te[ds]?|ting|tions?|tors?)\b" replace="$1mina$2"/>
+<Typo word="-minent" find="\b(E|e|[Ii]m|[Pp]ro|[Pp]ree)m(?:ina|mine)n(ces?|cy|t(ly)?)\b" replace="$1minen$2"/>
+<Typo word="-missible" find="\b([Aa]d|[Pp]er|[Tt]rans)mis+ab(le|ility)\b" replace="$1missib$2"/>
+<Typo word="-mitted" find="\b([Pp]er|[Rr]e|[EeOo]|(?:[Rr]e)?(?:[Aa]d|[Cc]om|[Ss]ub|[Tt]rans))mit(ed|edly|ing)\b" replace="$1mitt$2"/>
+<Typo word="-mity" find="\b([Cc]ala|[De]efor|[Ii]nfir|[Pp]roxi)mat(y|ies)\b" replace="$1mit$2"/>
+<Typo word="-nace" find="\b([Mm]e|[Ff]ur)nanc(e[ds]?|ing)\b" replace="$1nac$2"/>
+<Typo word="-nally" find="\b([A-Za-z]+[a-mo-z])(?:nalyl|anlly)\b" replace="$1nally"/><!--avoid incorrect to incorrect change on -nanlly-->
+<Typo word="-nance" find="\b([Ii]ndig|[Mm]a(?:lig|inte)|[Pp](?:e|oig|reg)|[Rr]e(?:pug|so)|[Ss]usti)nen(cy|ci?es?|t[a-z]*)\b" replace="$1nan$2"/><!--see also "-mina(nt/te)"-->
+<Typo word="-nf(i/o)rm" find="\b([Cc]o|I|i|[DdMm]isi|[IiUu]nco|[Rr]eco)mf([io])rm(s?|ed|ing|ati(ons?|ve(ly)?)|abl[ey]|al(ity)?)\b" replace="$1nf$2rm$3"/>
+<Typo word="-nment" find="\b([Aa](?:l|ss)ig|[Ee]n(?:tertai|viro)|[Gg]over)(?:nem|me)nt(s?|al[a-z]*)\b" replace="$1nment$2"/><!--see also "-ment"-->
+<Typo word="-nomial" find="\b([Mm]o|[Pp]oly|[Tt]ri)nomina(ls?)\b" replace="$1nomia$2"/><!--Don't match binominal-->
+<Typo word="-nounce" find="\b([Aa]n|[DdRr]e|[Pp]ro|[Mm]ispro)(?:nou|nuo?n|oun)cn?(e[a-z]*|ings?)\b" replace="$1nounc$2"/>
+<Typo word="-oid" find="\b([Aa]n[de]r|[AaOo]v|[Cc]ub|[Dd]ev|[Hh]uman|[Pp]aran|[Ss]ter|[Tt](?:abl|ac|or|yph))iod(s?|ed|ing|ance|al)\b" replace="$1oid$2"/>
+<Typo word="-ology" find="\b([A-Za-z]+)ol(?:[ai]?|ol)g(y(?<![Vv]olgy\b)|ic[a-z]*|ies|ists?)\b" replace="$1olog$2"/>
+<Typo word="-ong" find="\b([Aa][lm]|[GgLlSsTt]|[Ww]r)omg(s?)\b" replace="$1ong$2"/>
+<Typo word="-onym" find="\b([Aa]cr|[Aa]n|[Ee]p|[Hh]om|[Pp]seud|[Ss]yn)(?:yn[oy]m|on[aio]m|onym?n)(s?|ous|ously|ity|y)\b" replace="$1onym$2"/>
+<Typo word="-ormally" find="\b([FfNn]|[Ii]nf|[Aa]bn)ormaly\b" replace="$1ormally"/>
+<Typo word="-orous" find="\b([Aa]m|[Pp]|[Rr]anc|[RrVv]ig)o(?:urou|u?ro)s(ly|ness|\b(?<!Poros))\b" replace="$1orous$2"/><!--allowing humourous per talk page, see also "-vorous"-->
+<Typo word="-osion" find="\b([Cc]orr|[Ee]r|[Ee]xpl|[Ii]mpl)otion(s?)\b" replace="$1osion$2"/>
+<Typo word="-otten" find="\b(g|r|[Ff]org|[Bb]eg|[Mm]isg)ot(?:|tt)en(er|est|stones?)?\b" replace="$1otten$2"/>
+<Typo word="-oughly" find="\b([RrTt]|[Tt]hor)ougly\b" replace="$1oughly"/>
+<Typo word="-ought" find="\b([BbfSs]|[BbWw]r|[Tt]h)(?:aught|ougth)(s?)\b" replace="$1ought$2"/><!--Faught is a surname-->
+<Typo word="-ound-" find="([bcfghmprswzCDFGKMPRSTVWYZ])uond([a-z]{0,})" replace="$1ound$2"/>
+<Typo word="-paration" find="\b([Pp]r|[RrSs])ep(?:e?r?a|ar)t(ions?|or[ys]?|orily|ive(s?|ly))\b" replace="$1eparat$2"/>
+<Typo word="-partment" find="\b(A|a|[Dd]e|[Cc]om)pa[rt]ment(s?|al[a-z]*)\b" replace="$1partment$2"/>
+<Typo word="-pel" find="\b([Cc]om|[Dd]is|[Ee]x|[Ii]m|[Pp]ro|[Rr]e)pell(s?)\b" replace="$1pel$2"/>
+<Typo word="-pelled" find="\b([Cc]om|[Dd]is|[Ee]x|[Ii]m|[Pp]ro|[Rr]e)pel(ed|ing|[eo]rs?)\b" replace="$1pell$2"/>
+<Typo word="-pensable" find="\b([Ii]ndis|[Dd]is|[Cc]om)pensib(l[ey]|ility|leness)\b" replace="$1pensab$2"/>
+<Typo word="-pensation" find="\b([Cc]om|[Dd]is)pensantio(ns?|nal)\b" replace="$1pensatio$2"/>
+<Typo word="-pense" find="\b([Ii]n)?([Dd]is|[Ee]x|[Ss]us)penc(e[ds]?|ing|ive(?:ly|ness)?|ers?|ful|abl[ey]|ations?|ary|aries)\b" replace="$1$2pens$3"/>
+<Typo word="-petiti(on/ve)" find="\b([Nn]on|[Uu]n)?([Cc]om|[Rr]e)p(?:[ie]tit|ei?ti|pet[ae]ti|atiti)(ons?|ve[a-z]*)\b" replace="$1$2petiti$3"/>
+<Typo word="-phone" find="\b([Mm](?:ega|icro|ono)|[Ss](?:axo|tereo|ym)|[Tt]ele)pon(e[ds]?|ing|y|ic(ally)?)\b" replace="$1phon$2"/>
+<Typo word="-ployment" find="\b([Ee]m|[Uu]nem|[Rr]ede|[Dd]e)ployement(s?)\b" replace="$1ployment$2"/>
+<Typo word="-politan" find="\b([Cc]osmo|[Mm]etro|[Nn]ea)polit(?:ia?|ai)n(s?|ism)\b" replace="$1politan$2"/>
+<Typo word="-ponent" find="\b([Cc]om|[Dd]e|[Ex]x|[Oo]p|[Pp]ro)ponan(ts?)\b" replace="$1ponen$2"/>
+<Typo word="-press" find="\b([Ii]m|(?:[Ii]n|[DdRr]e)?(?:[Cc]om|[Ee]x)|[DdRr]e|[Oo]p|[Ss]up)pres(e[ds]?|ing|ion[a-z]*|ive(ly)?)?\b" replace="$1press$2"/>
+<Typo word="-pulation" find="\b([Mm]ani|[PpCc]o|[Ss]ti)puati([a-z]+)\b" replace="$1pulati$2"/>
+<Typo word="-putable" find="\b([Ii]n(?:com|dis)|[Dd]is(?:re)?|[Rr]e|[Ii]m|[Cc]om)put(?:e?i|ea)b(l[ey]|ilit[a-z]+)\b" replace="$1putab$2"/>
+<Typo word="-putation" find="\b([Cc]om|[RrDd]e|[AaIi]m)puation([alys]*)\b" replace="$1putation$2"/>
+<Typo word="-quarter" find="\b([Hh](?:ea|in)d|[Ff]ore)qu[ar]ter(s?|ed|ing)\b" replace="$1quarter$2"/>
+<Typo word="-quisition" find="\b([Aa]c|[Ii]n|[Rr]e)quis(?:tio|itoi?)n(s?)\b" replace="$1quisition$2"/>
+<Typo word="-rance" find="\b([Aa]ppea|(?:[Aa]s|[Ii]n)su|[Cc]lea|[Dd]elive|[Ee]n(?:du|t)|[Ff][lr]ag|[Hh]ind|[Ii]gno|[Pp]erseve|[Rr]ememb|[Ss]eve|[Tt](?:emp|ol)e)e?rea?n([ct][a-gi-z][a-z]*)\b(?<![Ii]nsurency\b)" replace="$1ran$2"/><!--Not Insur[g]ency-->
+<Typo word="-rector" find="\b([Cc]or|[Dd]i|[Cc]odi)recte(r[a-z]*)\b" replace="$1recto$2"/>
+<Typo word="-rien(ce/t)" find="\b([Ii]n|[Dd]is|[Rr]e)?([Ee]xpe|[Nn]ut|O|o|[Pp]ru)r(?:ei|ia|ite)n(ce[ds]?|cing|t[a-z]*)\b" replace="$1$2rien$3"/>
+<Typo word="-rious" find="\b([CcVv]a|[CcFf]u|[Dd]eli|[Hh]ila|[Ii](?:ll|nd)ust|[Ii]nju|[Ll]abou?|[Ll]uxu|[Mm]yste|[Nn]oto|[Pp]reca|[Ss]e|[Vv]icto)r(?:i?oui|i?oiu|iuo|ou|riou)s(ly|ness)?\b(?<!\b[Ss]erous\b)" replace="$1rious$2"/>
+<Typo word="-roid" find="\b([Aa]n[de]|(?:As|a?s|S)te|[Cc]ent|[Ff]ib|[Mm]eteo|[Ss]phe|[Tt]hy)riod(s?|al)\b" replace="$1roid$2"/>
+<Typo word="-sage" find="\b(U|u|[Dd]o)seage(s?)\b" replace="$1sage$2"/>
+<Typo word="-scend" find="\b(A|a|[Dd]e|[Tt]ran|[Cc]onde)c?[cs]end(s?|ed|ing)\b" replace="$1scend$2"/>
+<Typo word="-scend(a/e)nt" find="\b(A|a|[Dd]e|[Tt]ran|[Cc]onde)c?[cs]end([ae])n[td](s?)\b" replace="$1scend$2nt$3"/>
+<Typo word="-science" find="\b([Cc]on|[Pp]re|[Nn]e|[Oo]mni|[Bb]io|[Gg]eo|[Nn]euro|[Pp]seudo)[cs]ien(ces?|t(ious)?(ly)?|tific(ally)?)\b" replace="$1scien$2"/>
+<Typo word="-scribe" find="\b([Dd]e|[Ii]n|[Pp]r[eo]|[Ss]ub)sri([bp][a-z]+)\b" replace="$1scri$2"/>
+<Typo word="-scripti(on\ve)" find="\b([Cc]ircum|[Cc]on|[DdRr]e|[Ii]n|[Pp]r[eo]|[Ss]ub|[Tt]ran)scr?ip?(?:t|iti?)(ons?|ve(ly)?)\b" replace="$1scripti$2"/>
+<Typo word="-sequence" find="\b([A-Za-z]*s|S)equesece([ds])?\b" replace="$1equence$2"/>
+<Typo word="-sequent" find="\b([Cc]on|[Ii]ncon|[Ss]ub)(?:si?qu|equ|senqu|seq)en(ces?|t[a-z]*)\b" replace="$1sequen$2"/>
+<Typo word="-solutely" find="\b([A-Za-z]+)solutly\b" replace="$1solutely"/>
+<Typo word="-soning" find="\b([A-Za-z]+son)inig\b" replace="$1ing"/>
+<Typo word="-source" find="\b([Rr]e|[Oo]ut)(?:ssour|so[ru])c(e[ds]?|ing|eful(ly|ness)?)\b(?<![Rr]essources?)" replace="$1sourc$2"/><!--not the French word '(R/r)essource(s)' used in name i.e. [[Euro Ressources]]-->
+<Typo word="-sphere" find="\b([Aa]tmo|[Bb]logo|[Hh]emi|[Ss]trato)-?s(?:h?pere|phe+r)(s)?\b" replace="$1sphere$2"/>
+<Typo word="-stitute" find="\b([Cc]on|[DdRr]e(?:con)|[Ii]n|[Pp]ro|[Ss]ub)s(?:i?tut|titu[dr]?|tutit|tutut)(es?|ed|ing|ion[a-z]*)\b" replace="$1stitut$2"/>
+<Typo word="-strict" find="\b([Cc]on|[Rr]e(?:|di))stict(s?|ed|ing|ions?|ive)\b" replace="$1strict$2"/>
+<Typo word="-struct" find="\b((?:[RrDd]e|[Mm]is)?[Cc]on|(?:[Ii]n|[Nn]on)?[DdRr]e|[Ii]n(?:fra)?|[Mm][ai]cro|[Oo]b|[Ss]u(?:b|per))(?:stuct|[st]ruct|sttruct|sruct|struc)(s?|ed|ing|ionis[tm]s?|ions?|ures?|ors?|ivis[tm]s?|(ive|ural)(?:ly)?)\b" replace="$1struct$2"/><!--Error 'Instruction(s) => Instructtions' but maybe a hidden control character-->
+<Typo word="-surrect" find="\b([Rr]e|[Ii]n)s(?:sur+e|ure|ur+u)ct(s?|ed|ing|ion[a-z]*)\b" replace="$1surrect$2"/>
+<Typo word="-tally" find="\b([A-Za-z]+[b-eghj-z])talyl?\b" replace="$1tally"/><!--Don't match names Naftaly, Nataly-->
+<Typo word="-teenth" find="\b([Tt]hir|[Ff]our|[Ff]if|[Ss]ix|[Ss]even|[Ee]igh|[Nn]ine)t(?:e[en]|the+n)th?(s?)\b" replace="$1teenth$2"/>
+<Typo word="-thèque" find="\b([Bb]ibli|[Dd]isc)oth?[eéê]que(s?)\b" replace="$1othèque$2"/>
+<Typo word="-thing" find="\b([Aa]ny|[Ee]very|[Ss]ome|[Nn]o)t(?:hign|ing)\b(?<![Nn]oting)" replace="$1thing"/>
+<Typo word="-tience" find="\b([Ii][mn]|[Oo]ut)?([Pp]a|[Qq]uo|[Ss]en)t(?:ia|ei)n(ces?|t[a-z]*)\b" replace="$1$2tien$3"/>
+<Typo word="-tified" find="\b([Bb]eau?|[Cc]er|[FfMm]or|[Ii]den|[Jj]us|[Nn]o|[Qq]uan|[Rr]a|[Rr]ec|[Tt]es)ta?fi(e[ds]|abl[ey]|cat(e|ion)s?)\b" replace="$1tifi$2"/><!--see also "-tifie(d/s)"-->
+<Typo word="-tifie(d/s)" find="\b([Rr]e|[Uu]n|)([Bb]eau?|[Cc]er|[FfMm]or|[Ii]den|[Jj]us|[Nn]o|[Qq]uan|[Rr]a|[Rr]ec|[Tt]es)tife([ds])\b" replace="$1$2tifie$3"/><!--see also "-tified"-->
+<Typo word="-tility" find="\b([Ii]n)?([Dd]uc|[Ff](?:er|u)|[Hh]os|[Mm]o|[Uu]|[Vv](?:ersa|ola))t(?:ila|il?|illi)t(y|ies|arian)\b" replace="$1$2tilit$3"/>
+<Typo word="-timately" find="\b([Ii]n|[Uu]l)(?:i?ti?mate?le|(i|t|iti)mate?le?)y\b" replace="$1timately"/>
+<Typo word="-tinct" find="\b([Ii]n(?:dis)?|[Dd]is|[Ee]x)(?:ctinc|ti[cn]|ticnt)(s?|(ive)?(ly)?|ions?)\b(?<!\bDistin)" replace="$1tinct$2"/>
+<Typo word="-tion(s)" find="\b([A-Za-z]+)tio(?:i|(s))n\b" replace="$1tion$2"/>
+<Typo word="-tion" find="\b([DdNn]omina|(?:[Ee]n|[Dd]e)crypt|[Ss]?[Ee]lec|[Ee]mo|[Ss]ec)t(?:oi?|iio)n(s?|al[a-z]*)\b" replace="$1tion$2"/>
+<Typo word="-tional(ly)" find="\b([A-Za-z]+tion)nal(ly)?\b" replace="$1al$2"/>
+<Typo word="-tionally" find="\b([A-Za-z]+tion)aly\b" replace="$1ally"/>
+<Typo word="-tionary" find="\b([DdP]ic|[Rr]?[Ee]volu|[Ee]xpedi|[Ii]nfla|[Rr]eac)tionay\b" replace="$1tionary"/>
+<Typo word="-tious" find="\b([Aa]mbi|[Cc]a[pu]|[Ff][ai]cti|[Ii]nfec|[Nn]utri|[Rr]epeti)t(?:i?oui|oiu|iuo)s(ly|ness)?\b" replace="$1tious$2"/>
+<Typo word="-tivities" find="\b([Aa]c|[Ff]es|[Nn]a|[Rr]eac|(?:[Ii]n)?[Ss]ensi)tivit?es\b" replace="$1tivities"/>
+<Typo word="-tor" find="\b([Aa]nces|[Cc]onspira|[Ee]di|[Ii]nven|[Mm]oni|[Rr]eac|[Tt]ransla)t+er(s?|ed|ing|i?al[a-z]*)\b" replace="$1tor$2"/>
+<Typo word="-trate" find="\b([Cc]oncen|[Ii]nfil)tar?t(e[ds]?|ing|ions?|ors?)\b" replace="$1trat$2"/>
+<Typo word="-(s)trate" find="\b([Aa]dmini|[DdRr]emon|[Ff]ru|[Ii]llu|[Mm]agi|[Oo]rche)star?t(es?|ed|ing|ions?|ive(s?|ly)|ors?)\b" replace="$1strat$2"/>
+<Typo word="-tributor" find="\b([Cc]on|[Dd]is|[Aa]t)tribute(rs?)\b" replace="$1tributo$2"/>
+<Typo word="-tting" find="\b([BbGgJjLlPpSsVvWw]e|[BbCcGgPpRr]u|[Ff]orge)ting\b(?<!Guting)" replace="$1tting"/>
+<Typo word="-tude" find="\b([Aa][lpt]t|[Ff]ort|[Gg]rat|[Ll]at|[Ll]ong|[Mm]agn|[Mm]ult|[Ss]ol)i(?:tut|dud)(es?|inal(ly)?)\b" replace="$1itud$2"/>
+<Typo word="-ture" find="\b([Cc]ap|[Ff]ea|[Ll]ec|[Pp]ic|[Ss]culp|[Tt]or)tur(s?)\b" replace="$1ture$2"/><!--don't find surname "Pastur"-->
+<Typo word="-ually" find="\b([FfTt][Aa]ct|[Cc]as|[Ee](q|vent)|[Gg]rad|[Mm](an|ut)|[Aa]?[Ss]ex|(?:[Uu]n)?[Uu]s|[Vv]is)(?:u[al]?|al?)ly\b" replace="$1ually"/><!--Don't match Annaly-->
+<Typo word="-vel" find="\b([BbLlRr]e|[Dd]ri|[GgNnRr]a|[GgTt]r[ao]|[HhNn]o|[Mm]ar|[Ss](?:ho|hri|[nw]i))vle(s?)\b" replace="$1vel$2"/>
+<Typo word="-vele(d/r)" find="\b([BbLl]e|[Dd]ri|[Rr]a|[GgTt]r[ao]|[Mm]ar|[Ss](?:ho|hri|[nw]i))va?le(d|rs?)\b" replace="$1vele$2"/>
+<Typo word="-veling" find="\b([BbLlRr]e|[Dd]ri|[Rr]a|[GgTt]r[ao]|[Mm]ar|[Ss](?:ho|hri|[nw]i))vle?ing\b" replace="$1veling"/>
+<Typo word="-vement" find="\b([A-Za-z]+)vment(s?|al|ed|ing)\b" replace="$1vement$2"/>
+<Typo word="-venge" find="\b(A|a|[Rr]e|[Ss]ca)vang(er?s?|ed|ing)\b" replace="$1veng$2"/>
+<Typo word="-versary" find="\b([Aa]nni|[Aa]d)v(?:erse|r?esa)r(y|ies|ial)\b" replace="$1versar$2"/>
+<Typo word="-versity" find="\b([Aa]d|[Dd]i|[Uu]ni)veristy\b" replace="$1versity"/>
+<Typo word="-view" find="\b([Ii]nter|[Oo]ver|[Pp]?[Rr]e)(?:vei|vi|ve|wie|ive)w(s?|ed|ing|ers?|able)\b" replace="$1view$2"/>
+<Typo word="-vious" find="\b([Dd]e|[Ee]n|[Oo]b(?:li)?|[Pp]re)v(?:ouse?|iosu?|iou?su|u?ose?)(ly)?\b(?<!Devos)" replace="$1vious$2"/>
+<Typo word="-vorous" find="\b([Cc]arn|[Hh]erb|[Ii]nsect|[Oo]mn)iv[aeiu]r(ous(?:ly)?|es?)\b" replace="$1ivor$2"/>
+<Typo word="-wed/-wing" find="\b([A-Za-z]+)ww(ed|ing|s)\b" replace="$1w$2"/>
+<Typo word="-where" find="\b([Aa]ny|[Ee]lse|[Ee]very|[Nn]o|[Ss]ome)h?were\b" replace="$1where"/>

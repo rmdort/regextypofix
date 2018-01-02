@@ -3,6 +3,10 @@ import regex as re
 import logging
 
 log = logging.getLogger('regextypofix')
+logging.basicConfig(
+  level=logging.DEBUG,
+  format='%(message)s'
+)
 
 def create_dictionary ():
   """
@@ -47,10 +51,7 @@ def correct (text):
 
 # Create a dictionary upon import
 dictionary = create_dictionary()
+logging.info('Total words in dictionary %s', len(dictionary))
 
 if __name__ == "__main__":
-  logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(message)s'
-  )
   correct('whiel selled')

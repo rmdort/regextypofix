@@ -1,0 +1,273 @@
+<!--Geographical names with capital letters-->
+<Typo word="Abkhazia" find="\babkha(s|[sz]ian?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Abkha$1"/>
+<Typo word="Afghanistan" find="\bafghani(s?|stan)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Afghani$1"/>
+<Typo word="Akro(n/tiri)" find="\bakro(n|tiri)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Akro$1"/>
+<Typo word="Åland" find="\båland\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Åland"/>
+<Typo word="Albania" find="\balbania(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Albania$1"/>
+<Typo word="Algeria" find="\balgeri(e|an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Algeri$1"/>
+<Typo word="Andorra" find="\bandor+a(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Andorra$1"/>
+<Typo word="Angola" find="\bangoli?(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Angol$1"/>
+<Typo word="Anguilla" find="\banguil+(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Anguill$1"/>
+<Typo word="Anti(gua/lles)" find="\banti(guan?s?|lles)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Anti$1"/>
+<Typo word="Greater Antilles" find="\bgreater\s+[Aa]ntilles\b" replace="Greater Antilles"/>
+<Typo word="Lesser Antilles" find="\bles+er\s+[Aa]ntilles\b" replace="Lesser Antilles"/>
+<Typo word="Arabia" find="\barab(s?|ian?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Arab$1"/>
+<Typo word="Argentina" find="\bargentin(a|e(an)?s?)\b(?!\'\')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Argentin$1"/><!--avoid when part of scientific name-->
+<Typo word="Armenia" find="\barmenia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Armenia$1"/>
+<Typo word="Aruba" find="\barub(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Arub$1"/>
+<Typo word="Ascension Island" find="\bascension island\b" replace="Ascension Island"/>
+<Typo word="Austr-" find="\baustr(al|ones)?(ian?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Austr$1$2"/>
+<Typo word="Azer-" find="\bazer(baijan)?(is?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Azer$1$2"/>
+<Typo word="Babylon(ia)" find="\bbab[yi]lon(ian?s?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Babylon$1"/>
+<Typo word="Bahamas" find="\bbaham+(as?|i?ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Baham$1"/>
+<Typo word="Bahrain" find="\bbahrain(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bahrain$1"/>
+<Typo word="Bangladesh" find="\bbangl[ae]des(hi?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Banglades$1"/>
+<Typo word="Barbados" find="\bbarbad(os|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Barbad$1"/>
+<Typo word="Barbuda/Bermuda" find="\bb(arb|erm)ud(i?an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="B$1ud$2"/>
+<Typo word="Basutoland" find="\bbasutoland\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Basutoland"/>
+<Typo word="Bei(jing/rut)" find="\bbei(jing|rut)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bei$1"/>
+<Typo word="Bel(arus/gium/ize)" find="\bbel(arus(s?ians?)?|gi(um|ans?)|iz(e|ians?))\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bel$1"/>
+<Typo word="Benin" find="\bbenin(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Benin$1"/>
+<Typo word="Bhutan" find="\bbhutan(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bhutan$1"/>
+<Typo word="Bolivia/Bosnia" find="\bbo(liv|sn)i(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bo$1i$2"/>
+<Typo word="Botswana" find="\bbotswana(n?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Botswana$1"/>
+<Typo word="Brazil" find="\bbrazil?(l|lians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Brazi$1"/>
+<Typo word="Brunei" find="\bbrunei(?<![Tt]ryonia\s+brunei)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Brunei"/>
+<Typo word="Bulgar(ia)" find="\bbulgar(ian?s?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bulgar$1"/>
+<Typo word="Burkina Faso" find="\b[Bb]urkina\s*(?:fas+|Fass)o\b" replace="Burkina Faso"/>
+<Typo word="Bur(kina/ma/undi)" find="\bbur(kina|ma|mese|urundi(ans?)?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Bur$1"/>
+<Typo word="Byzantine" find="\bbyzant?ti(nes?|um)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Byzanti$1"/>
+<Typo word="Cambodia" find="\bcambodia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cambodia$1"/>
+<Typo word="Cameroon" find="\bcameroon\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cameroon"/>
+<Typo word="Cameroonian" find="\bcamero+nia(ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cameroonia$1"/>
+<Typo word="Canada" find="\bcanad(a|i[ae]n[as]?)\b(?<!canadien)(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Canad$1"/>
+<Typo word="Cape Verde" find="\b[Cc]ape\s*verde\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cape Verde"/>
+<Typo word="Cayman Islands" find="\b[Cc]ayman islands\b" replace="Cayman Islands"/>
+<Typo word="Central African Republic" find="\b[Cc]entral\s+[Aa]frican\s+republic\b" replace="Central African Republic"/>
+<Typo word="Chadian" find="\bchadia(ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Chadia$1"/>
+<Typo word="Chilean" find="\bchil+[ei]a(ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Chilea$1"/>
+<Typo word="Chinese" find="\bchin+es+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Chinese"/>
+<Typo word="Christmas Island" find="\b[Cc]hristmas\s+island\b" replace="Christmas Island"/>
+<Typo word="Col(o/u)mbia" find="\bcol([ou])mbia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Col$1mbia$2"/><!--Not domains and URLs-->
+<Typo word="Comoros" find="\bcomoros\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Comoros"/>
+<Typo word="Congo" find="\bcong(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cong$1"/>
+<Typo word="Cook Islands" find="\b[Cc]ook\s*islands\b" replace="Cook Islands"/>
+<Typo word="Corsica" find="\bcorsica(ns?)?\b(?<!\b\p{Lu}\.\s+corsica)(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Corsica$1"/>
+<Typo word="Costa Rica" find="\b[Cc]osta\s*rica(ns?)?\b" replace="Costa Rica$1"/>
+<Typo word="Côte d'Ivoire" find="\bc[oô]te\s+d'[Ii]voire\b" replace="Côte d'Ivoire"/>
+<Typo word="Crete" find="\bcret(e|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cret$1"/>
+<Typo word="Croatia" find="\bcroat(s?|ia|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Croat$1"/>
+<Typo word="Cuba_" find="\bcuba(ns?)?(?!\s+prime)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cuba$1"/>
+<Typo word="Cyprus" find="\bc[yi]pr(us|iots?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Cypr$1"/>
+<Typo word="Czech Republic" find="\bczec[hk]\s*[Rr]epublic\b" replace="Czech Republic"/>
+<Typo word="Dahomey" find="\bdahomey\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Dahomey"/>
+<Typo word="Danish" find="\bdan+ish\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Danish"/>
+<Typo word="Democratic People's Republic of Korea" find="\b[Dd]emocratic\s*people['′]?s\s*republic\s*of\s*[kK]orea\b" replace="Democratic People's Republic of Korea"/>
+<Typo word="Democratic Republic of Congo" find="\b[Dd]emocratic\s+republic\s+of\s+[Cc]ongo\b" replace="Democratic Republic of Congo"/>
+<Typo word="Denmark" find="\bdenmark\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Denmark"/>
+<Typo word="Dhekelia" find="\bdhekeli(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Dhekeli$1"/>
+<Typo word="Djibouti" find="\bdjibouti\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Djibouti"/>
+<Typo word="Dominica" find="\bdomin+ici?(a|ans?)\b(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Dominic$1"/><!--don't match when scientific name-->
+<Typo word="Dominican Republic" find="\bdominican\s*[rR]epublic\b" replace="Dominican Republic"/>
+<Typo word="East Timor" find="\beast\s*timor\b" replace="East Timor"/>
+<Typo word="Ecuador" find="\becua?d+or(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ecuador$1"/>
+<Typo word="Egypt" find="\beg[yi]pt(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Egypt$1"/>
+<Typo word="El Salvador" find="\bel\s*[Ss]alvado(r|rians?)\b" replace="El Salvado$1"/>
+<Typo word="Equatorial Guinea" find="\bequatorial\s*[Gg]uinea\b" replace="Equatorial Guinea"/>
+<Typo word="Eritrea" find="\beritrea(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Eritrea$1"/>
+<Typo word="Estonia" find="\bestonia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Estonia$1"/>
+<Typo word="Ethiopia" find="\beth[ie]opia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ethiopia$1"/>
+<Typo word="Falkland Islands" find="\b[Ff]au?lkland\s*islands\b" replace="Falkland Islands"/>
+<Typo word="Falkland" find="\bfau?lkland(s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Falkland$1"/>
+<Typo word="Faroe Islands" find="\b[Ff]aroe\s*islands\b" replace="Faroe Islands"/>
+<Typo word="Fehnerbaçe" find="\b(?:[fF]ehnerbac|fehnerbaç)e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Fehnerbahçe"/>
+<Typo word="Fiji" find="\bfiji(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Fiji$1"/>
+<Typo word="Filipino" find="\b(?:(?:[Pp]h|f)il+ip+inoe?|Filipinoe)(s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Filipino$1"/>
+<Typo word="Finland" find="\bfin(land(ia)?|nish)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Fin$1"/>
+<Typo word="France" find="\bfrance\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="France"/>
+<Typo word="French Polynesia" find="\b[Ff]rench\s*polynesia\b" replace="French Polynesia"/>
+<Typo word="Gabon" find="\bgabon\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Gabon"/>
+<Typo word="Gambia" find="\bgambia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Gambia$1"/>
+<Typo word="Georgia" find="\bgeorgia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Georgia$1"/>
+<Typo word="Germany" find="\bgerman(s?|y|ic|is[mt]s?|i[sz]e[sdr]?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})(?<!cousin[- ]german)" replace="German$1"/><!-- don't match [[wikt:cousin-german]] -->
+<Typo word="Ghana" find="\bghan(a(n?|ian)s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ghan$1"/>
+<Typo word="Gibraltar" find="\bgibraltar(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Gibraltar$1"/>
+<Typo word="Greece" find="\bgre(ece|eks?|cian)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Gre$1"/>
+<Typo word="Greenland" find="\bgreenland(ic|ers?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Greenland$1"/>
+<Typo word="Grenad(a/ines)" find="\bgrenad(an?s?|ines)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Grenad$1"/>
+<Typo word="Guatemala" find="\bguatemala(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Guatemala$1"/>
+<Typo word="Guinea-Bissau" find="\b[Gg]uinea-bissau\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Guinea-Bissau"/>
+<Typo word="Guinean" find="\bguinea(ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Guinea$1"/>
+<Typo word="Guyana" find="\bguyana(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Guyana$1"/>
+<Typo word="Haiti" find="\bhaiti(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Haiti$1"/>
+<Typo word="Herzegovina" find="\bherzegovin(a|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Herzegovin$1"/>
+<Typo word="Honduras" find="\bhondura(n?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Hondura$1"/>
+<Typo word="Hong Kong_" find="\b(?!Hongkong [Ll]and\b)[Hh]ong[-\s]*kong\b" replace="Hong Kong"/><!--avoid [[Hongkong Land]]-->
+<Typo word="Hungary" find="\bhungar(y|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Hungar$1"/>
+<Typo word="I(c/r)eland" find="\bi([cr])eland(ers?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="I$1eland$2"/>
+<Typo word="Icelandic" find="\biceland(ic|ers?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Iceland$1"/>
+<Typo word="India" find="\bindia(n?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})(?![\s-]rubber)" replace="India$1"/><!--don't match india rubber-->
+<Typo word="Indonesia" find="\bindonesia(ns?)?\b(?<!indonesia(ns?)?)(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Indonesia$1"/><!--not in urls or domains-->
+<Typo word="Ira(n/q)_" find="\bira(n|nians?|qi?s?)\b(?<!Ira(n|nians?|qi?s?))(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ira$1"/><!--Avoid match on domains and URLs-->
+<Typo word="Islas Malvinas" find="\bislas\s+[Mm]alvinas\b" replace="Islas Malvinas"/>
+<Typo word="Italy" find="\bital+(y|ian?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ital$1"/>
+<Typo word="Ivory Coast" find="\b[Ii]vory\s*coast\b" replace="Ivory Coast"/>
+<Typo word="Jamaica" find="\bjam+ai?ca(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Jamaica$1"/>
+<Typo word="Japan" find="\bjapan\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Japan"/>
+<Typo word="Japanese" find="\bjapan+es+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Japanese"/>
+<Typo word="Jordan" find="\bjordan(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Jordan$1"/>
+<Typo word="Kazak(h)" find="\bka[sz]ak(h?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kazak$1"/>
+<Typo word="Kazakhstan" find="\bka[sz]akh?stan\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kazakhstan"/>
+<Typo word="Kenya" find="\bkenya(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kenya$1"/>
+<Typo word="Kirg(h)iz(stan/ia)" find="\bkir(gh?)iz(ia|stan)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kir$1iz$2"/>
+<Typo word="Kiribati" find="\bkiribati(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kiribati$1"/>
+<Typo word="Korea" find="\bkorea(n?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Korea$1"/>
+<Typo word="Kosovo" find="\bkos+ov(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kosov$1"/>
+<Typo word="Kuwait" find="\bkuwait(is?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kuwait$1"/>
+<Typo word="Kyrgyzstan" find="\b(?:Kyrgy|kyrgyz)stan(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kyrgyzstan$1"/>
+<Typo word="Laos" find="\blao(s|tians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Lao$1"/>
+<Typo word="Latvia" find="\blatvia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Latvia$1"/>
+<Typo word="Lebanese" find="\bleb[ae]n?nes+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Lebanese"/>
+<Typo word="Lebanon" find="\bleb[ae]n(on|ese)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Leban$1"/>
+<Typo word="Lesotho" find="\blesoth(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Lesoth$1"/>
+<Typo word="Liberia" find="\bliberia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Liberia$1"/>
+<Typo word="Libya" find="\blib[yi]a(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Libya$1"/>
+<Typo word="Liechtenstein" find="\bliechtenstein\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Liechtenstein"/>
+<Typo word="Lithuania" find="\blithuania(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Lithuania$1"/>
+<Typo word="Luxembourg" find="\bluxembourg\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Luxembourg"/>
+<Typo word="Maca(o/u)" find="\bmaca([ou])\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Maca$1"/>
+<Typo word="Macedon" find="\bmac[ae]don(ian?s?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Macedon$1"/>
+<Typo word="Madagascar" find="\bmad[ae]gasca(r|ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Madagasca$1"/>
+<Typo word="Malawi" find="\bmal+awi(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Malawi$1"/>
+<Typo word="Malay(sia)" find="\bmal+ay(alam|ali|an?s?|s|sian?s?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Malay$1"/>
+<Typo word="Maldives" find="\bmald[ei]v(es|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Maldiv$1"/>
+<Typo word="Mali" find="\bmali\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mali"/>
+<Typo word="Malta" find="\bmal+t(a|ese)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Malt$1"/>
+<Typo word="Marshall Islands" find="\b[Mm]arshal+\s+islands\b" replace="Marshall Islands"/>
+<Typo word="Mauritania" find="\bmauritania(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mauritania$1"/>
+<Typo word="Mauritius" find="\bmauriti(us|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mauriti$1"/>
+<Typo word="Mayotte" find="\bmayotte\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mayotte"/>
+<Typo word="Mexico" find="\bmexic(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mexic$1"/>
+<Typo word="Micronesia" find="\bmicronesia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Micronesia$1"/>
+<Typo word="Moldova" find="\bmoldov(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Moldov$1"/>
+<Typo word="Monaco" find="\bmon(aco|acans?|egasques?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mon$1"/>
+<Typo word="Mongolia" find="\bmongol+(s?|ian?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mongol$1"/>
+<Typo word="Montenegro" find="\bmontenegr(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Montenegr$1"/>
+<Typo word="Montserrat" find="\b(?:mont?ser+|Montser)a(ti?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Montserra$1"/><!--Don't fix name Monserrat-->
+<Typo word="Morocco" find="\bmor+oc+(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Morocc$1"/>
+<Typo word="Mozambique" find="\bmozambique\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mozambique"/>
+<Typo word="Myanmar" find="\bmyanmar\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Myanmar"/>
+<Typo word="Nagorno-Karabakh" find="\b[Nn]agorno-karabakh\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nagorno-Karabakh"/>
+<Typo word="Namibia" find="\bnamibi(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Namibi$1"/>
+<Typo word="Nauru" find="\bnauru\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nauru"/>
+<Typo word="Nepal" find="\bnepal\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nepal"/>
+<Typo word="Nepalese" find="\bnep[ae]l?les?se\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nepalese"/>
+<Typo word="Netherlands" find="\bnetherlands\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Netherlands"/>
+<Typo word="New Caledonia" find="\b[Nn]ew\s+caledonia(ns?)?\b" replace="New Caledonia$1"/>
+<Typo word="New Zealand" find="\b[Nn]ew\s+(?:zea|Ze)land(ers?)?\b" replace="New Zealand$1"/>
+<Typo word="Nicaragua" find="\bnicaragua(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nicaragua$1"/>
+<Typo word="Niger(ia)" find="\bniger(i[ae]n?s?|ois|\b(?!''))\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Niger$1"/><!--don't match scientific names-->
+<Typo word="Niue" find="\bniue\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Niue"/>
+<Typo word="Norfolk Island" find="\b[Nn]orfolk\s+island\b" replace="Norfolk Island"/>
+<Typo word="North Korea" find="\bnorth\s+kore(a|ans?)\b" replace="North Kore$1"/>
+<Typo word="Northern Cyprus" find="\bnorthern cyprus\b" replace="Northern Cyprus"/>
+<Typo word="Northern Mariana Islands" find="\bnorthern\s+[Mm]ariana\s+islands\b" replace="Northern Mariana Islands"/>
+<Typo word="Nor(way/wegian/se/man(dy)/folk)" find="\bnor(way|wegians?|se|sem[ae]n|dic|mans?|mandy|folk)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nor$1"/>
+<Typo word="Oman" find="\boma(ni?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Oma$1"/>
+<Typo word="Pakistan" find="\bpakist(ani?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Pakist$1"/>
+<Typo word="Palau" find="\bpalau\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Palau"/>
+<Typo word="Palestine" find="\b(?:pale|[Pp]ali)stin(e|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Palestin$1"/>
+<Typo word="Palestinian" find="\b[Pp]al[ei]stian(s)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Palestinian$1"/>
+<Typo word="Panama" find="\bpanam+a(nians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Panama$1"/>
+<Typo word="Papua New Guinea" find="\b[Pp]apua new [Gg]uinea\b" replace="Papua New Guinea"/>
+<Typo word="Paraguay" find="\bparagua[yi](ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Paraguay$1"/>
+<Typo word="People's Republic of China" find="\b[Pp]eople['′]s\s+republic\s+of\s+[Cc]hina\b" replace="People's Republic of China"/>
+<Typo word="Per(sia/u)" find="\bper(sian?s?|u|uvians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Per$1"/>
+<Typo word="Philippin(e/o)" find="\bphil?lip?pino([eo]s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Philippin$1"/>
+<Typo word="Philippine" find="\b(?:phil+ip+|Phil+ip)ine(s)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Philippine$1"/>
+<Typo word="Pitcairn Islands" find="\b[Pp]itcairn\s+islands\b" replace="Pitcairn Islands"/>
+<Typo word="Poland" find="\bpoland\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Poland"/>
+<Typo word="Portugal" find="\bportugal\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Portugal"/>
+<Typo word="Portuguese" find="\bportug+u?eu?s+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Portuguese"/>
+<Typo word="Pridnestrovie" find="\bpridnestrovie\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Pridnestrovie"/>
+<Typo word="Punjab(i)" find="\bpunjab(i?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Punjab$1"/>
+<Typo word="Qatar" find="\bqu?ata(ri?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Qata$1"/>
+<Typo word="Republic of China/Congo" find="\brepublic\s+of\s+[Cc](hina|ongo)\b" replace="Republic of C$1"/>
+<Typo word="Republic of Korea" find="\brepublic\s+of\s+[kK]orea\b" replace="Republic of Korea"/>
+<Typo word="Romania" find="\bromani(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Romani$1"/>
+<Typo word="Russia" find="\brus+i(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Russi$1"/>
+<Typo word="Rwanda" find="\brwanda(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Rwanda$1"/>
+<Typo word="Saint Helena" find="\bsaint\s+[Hh]elena\b" replace="Saint Helena"/>
+<Typo word="Saint Kitts and Nevis" find="\bsaint\s+[Kk]itts\s+and\s+[Nn]evis\b" replace="Saint Kitts and Nevis"/>
+<Typo word="Saint Lucia" find="\bsaint [Ll]ucia\b" replace="Saint Lucia"/>
+<Typo word="Saint Pierre and Miquelon" find="\bsaint\s+[Pp]ierre\s+and\s+[Mm]iquelon\b" replace="Saint Pierre and Miquelon"/>
+<Typo word="Saint Vincent and the Grenadines" find="\bsaint\s+[Vv]incent\s+and\s+the\s+[Gg]renadines\b" replace="Saint Vincent and the Grenadines"/>
+<Typo word="Samoa" find="\bsamoa(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Samoa$1"/>
+<Typo word="San Marino" find="\b[Ss]an\s+marino\b" replace="San Marino"/>
+<Typo word="São Paulo" find="\b[Ss](?:ã[uõ]\s+[Pp]a[uo]|a[ouõ]\s+[Pp]a[uo]|ão\s+[Pp]ao|ão\s+pa[ou])lo\b" replace="São Paulo"/>
+<Typo word="São Tomé and Príncipe" find="\b[Ss][ãa]o\s+[Tt]om[ée]\s+and\s+pr[íi]ncipe\b" replace="São Tomé and Príncipe"/>
+<Typo word="São Tomé and Príncipe" find="\b[Ss]ao\s+[Tt]ome\s+and\s+Principe\b" replace="São Tomé and Príncipe"/>
+<Typo word="Sardinia" find="\bsardini(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Sardini$1"/>
+<Typo word="Saud(i)" find="\bsaud(i?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Saud$1"/>
+<Typo word="Scandinavia" find="\b(?:scand[ai]|Scanda)navia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Scandinavia$1"/>
+<Typo word="Senegal" find="\bsen[ae]gal(?<!(?:[Aa]cacia|[Ss]\.|[Ss]enegalia)\s+senegal)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Senegal"/>
+<Typo word="Senegalese" find="\bsen[ae]gal+[ae]s?se\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Senegalese"/>
+<Typo word="Serbia" find="\bserbi(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Serbi$1"/>
+<Typo word="Sèvres" find="\bSevres\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Sèvres"/>
+<Typo word="Seychelles" find="\bseychel+es\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Seychelles"/>
+<Typo word="Sierra Leone" find="\bsier+a\s+[Ll]eone(ans?)?\b" replace="Sierra Leone$1"/>
+<Typo word="Sierra Leonese" find="\bsier+a\s+[Ll]eones+e\b" replace="Sierra Leonese"/>
+<Typo word="Singapore" find="\bsingap+or[ei](ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Singapore$1"/>
+<Typo word="Slav(on)ic" find="\bslav(on)?ic\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Slav$1ic"/>
+<Typo word="Slov(ak/en)ia" find="\bslov(ak|en)ia(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Slov$1ia$2"/>
+<Typo word="Solomon Islands" find="\b[Ss]olomon\s+islands\b" replace="Solomon Islands"/>
+<Typo word="Somali(a/land)" find="\bsomali(a?|s|ans?|land)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Somali$1"/>
+<Typo word="South Africa" find="\bsouth\s+[Aa]frica(ns?)?\b" replace="South Africa$1"/>
+<Typo word="South Korea" find="\bsouth\s+[Kk]ore(a|ans?)\b" replace="South Kore$1"/>
+<Typo word="South Ossetia" find="\bsouth\s+[Oo]ssetia\b" replace="South Ossetia"/>
+<Typo word="Spain" find="\bspa(in|ni(?:sh|ards?))\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Spa$1"/>
+<Typo word="Sri Lanka" find="\b[Ss]ri\s*lank(a|ans?)\b" replace="Sri Lank$1"/>
+<Typo word="Sudan" find="\bsudan\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Sudan"/>
+<Typo word="Sudanese" find="\bsudan+es+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Sudanese"/>
+<Typo word="Suriname" find="\bsuriname(rs?|se)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Suriname$1"/>
+<Typo word="Svalbard" find="\bsvalbard\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Svalbard"/>
+<Typo word="Swaziland" find="\bswaziland\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Swaziland"/>
+<Typo word="Sweden" find="\bswed(en|ish)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Swed$1"/>
+<Typo word="Switzerland" find="\bswi(tzerland|ss)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Swi$1"/>
+<Typo word="Syria" find="\bsyri(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Syri$1"/>
+<Typo word="Taiwan" find="\btaiwan(ese)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Taiwan$1"/>
+<Typo word="Tajikistan" find="\btajikistan(i?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tajikistan$1"/>
+<Typo word="Tanzania" find="\btanzania(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tanzania$1"/>
+<Typo word="Thailand" find="\bthailand\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Thailand"/>
+<Typo word="Timor" find="\btimor(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Timor$1"/>
+<Typo word="Timor-Leste" find="\b[Tt]imor-leste\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Timor-Leste"/>
+<Typo word="Tobago" find="\btobag(o|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tobag$1"/>
+<Typo word="Togan(s)" find="\btogan(s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Togan$1"/><!-- do not capitalize "togo", as it might mean "to go" -->
+<Typo word="Tokelau" find="\btokelau\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tokelau"/>
+<Typo word="Tonga" find="\btonga(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tonga$1"/>
+<Typo word="Transnistria" find="\btransnistria(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Transnistria$1"/>
+<Typo word="Trinidad" find="\btrin+idad(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Trinidad$1"/>
+<Typo word="Tristan da Cunha" find="\b[Tt]ristan da cunha\b" replace="Tristan da Cunha"/>
+<Typo word="Tunisia" find="\btunisi(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tunisi$1"/>
+<Typo word="Turk(men)istan" find="\bt(ur[ck]o?)(m[ea]n)?(s?|ic|[ei]stan)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="T$1$2$3"/>
+<Typo word="Turkish" find="\bturkis([hm])\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Turkis$1"/>
+<Typo word="Turks and Caicos Islands" find="\b[Tt]urks\s+and\s+[Cc]aicos\s+islands\b" replace="Turks and Caicos Islands"/>
+<Typo word="Tuvalu" find="\btuvalu(vians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tuvalu$1"/>
+<Typo word="Uganda" find="\buganda(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Uganda$1"/>
+<Typo word="Ukraine" find="\b(?:Ukra|ukrai?)n(e|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ukrain$1"/>
+<Typo word="United Arab Emirates" find="\b[Uu]nited\s+[Aa]rab\s+emirates\b" replace="United Arab Emirates"/>
+<Typo word="Uruguay" find="\burugua[yi](ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Uruguay$1"/>
+<Typo word="Uzbekistan" find="\bu[sz]be[ck]istan(i?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Uzbekistan$1"/>
+<Typo word="Vanuatu" find="\bvanuatu\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Vanuatu"/>
+<Typo word="Vatican City" find="\b[Vv]atican\s+city\b" replace="Vatican City"/>
+<Typo word="Venezuela" find="\bvenez+uel+(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Venezuel$1"/>
+<Typo word="Vietnam" find="\bviet\s*[Nn]am\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Vietnam"/>
+<Typo word="Vietnamese" find="\bvietnames+e\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Vietnamese"/>
+<Typo word="Virgin Islands" find="\b[Vv]irgin islands\b" replace="Virgin Islands"/>
+<Typo word="Wallis and Futuna" find="\b[Ww]allis\s+and\s+futuna\b" replace="Wallis and Futuna"/>
+<Typo word="Western Sahara" find="\bwestern\s+sahara\b" replace="Western Sahara"/>
+<Typo word="Württemberg" find="\bw[uü]rt+emberg\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Württemberg"/>
+<Typo word="Yemen" find="\byem+en(is?|ites?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Yemen$1"/>
+<Typo word="Yugoslavia" find="\byugoslavi(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Yugoslavi$1"/>
+<Typo word="Zambia" find="\bzambi(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Zambi$1"/>
+<Typo word="Zimbabwe" find="\bzimbabw[ei](ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Zimbabwe$1"/>

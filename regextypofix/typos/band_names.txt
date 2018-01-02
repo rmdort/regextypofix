@@ -1,0 +1,3 @@
+<Typo word="Mötley Crüe" find="\b[Mm]otley\s+[Cc]rue\b" replace="Mötley Crüe"/>
+<Typo word="AC/DC" find="\b[Aa][Cc]-[Dd][Cc]\b" replace="AC/DC"/>
+<Typo word="Metallica" find="\b[Mm]ettal+ica\b" replace="Metallica"/>

@@ -1,0 +1,51 @@
+<Typo word="(Un)Want" find="\b(W|w|[Uu]nw)(?:atn|hant|nat)(s?|ed|ing)\b" replace="$1ant$2"/>
+<Typo word="Warfare" find="\b([Ww])arefare\b" replace="$1arfare"/>
+<Typo word="(Un)Warrant" find="\b(W|w|[Uu]nw)ar(?:re|a)nt((ee|[eo]r)?s?|ed|ing|y|ies)\b" replace="$1arrant$2"/>
+<Typo word="Was" find="(?!\bWass\b)\b([Ww])(?:ea|as)s\b" replace="$1as"/><!--Don't match surname Wass-->
+<Typo word="Way" find="\b([Ww])ya(s)?\b" replace="$1ay$2"/>
+<Typo word="Weapon" find="\b([Ww])(?:eapon[ae]|[ae]pon)(s?|ry|i[sz]ed?)\b" replace="$1eapon$2"/>
+<Typo word="Website" find="\b([Ww])e(?:bstit?e|bsit|biste|sbite)(s)?\b" replace="$1ebsite$2"/>
+<Typo word="Weigh" find="\b([Ww])iegh(ed|ing)\b" replace="$1eigh$2"/>
+<Typo word="Weight" find="\b([Oo]verw|[Uu]nderw|[Ll]ightw|[Mm]iddlew|[Hh](?:eavy|undred)w|[Ff](?:eather|ly)w|[Cc](?:ount|ruis)erw|[Pp](?:enny|aper)w|[Ww]elterw|W|w)ieght(s?|ed|ing|less)\b" replace="$1eight$2"/>
+<Typo word="Weird" find="\b([Ww])ierd(er|est|l?y|ness|o|oes|ies?)?\b(?<!Carissa's Wierd)" replace="$1eird$2"/><!--not Carissa's Wierd-->
+<Typo word="well" find="\bvell\b" replace="well"/>
+<Typo word="What" find="\b([Ww])(?:aht|hta)\b" replace="$1hat"/>
+<Typo word="Where" find="\b([Ww])(?:her|eh)re\b" replace="$1here"/>
+<Typo word="Whereabouts" find="\b([Ww])(?:her[ae]|erea)bouts\b" replace="$1hereabouts"/>
+<Typo word="Whereas" find="\b([Ww])her(?:as|ease)\b" replace="$1hereas"/>
+<Typo word="Whereupon" find="\b([Ww])herupon\b" replace="$1hereupon"/>
+<Typo word="Whether" find="\b([Ww])hther\b" replace="$1hether"/>
+<Typo word="Which" find="\b([Ww])(?:hihc|hcih|hic|ihch|hlch)\b" replace="$1hich"/>
+<Typo word="who" find="\bwoh\b" replace="who"/><!--don't match name Woh-->
+<Typo word="Wholly" find="\b([Ww])holel?y\b" replace="$1holly"/>
+<Typo word="Widespread" find="\b([Ww])ide(?:-?srea|-sprea|-?spre)d\b" replace="$1idespread"/><!--don't fix "wide-spreading"-->
+<Typo word="Wikipedia" find="\b[Ww]h?[Iiî]+[KkCc]+[Iiîaeou]+?[ -]?([MmPp])+[aeiǣæÆé]{0,2}di?e?[îi]?(an?\'?s?|c)\b(?!\.\w|-\w)(?<!Wiki[mp]edi(an?\'?s?|c)\b)" replace="Wiki$1edi$2"/><!--Not URLs's and domains-->
+<Typo word="William(s/son/sburg)" find="\bWillaim(s?|sons?|sburg)\b" replace="William$1"/>
+<Typo word="(Un)Willingness" find="\b(W|w|[Uu]nw)illingless\b" replace="$1illingness"/>
+<Typo word="Windows" find="\b([Ww])indoes\b" replace="$1indows"/>
+<Typo word="with" find="\bwithe\b" replace="with"/><!--Don't fix surname Withe-->
+<Typo word="With" find="\b([Ww])(?:ih[nt]?|hith|itht|tit?h)\b" replace="$1ith"/>
+<Typo word="Withdrawal" find="\b([Ww])ithdrawl(s?)\b" replace="$1ithdrawal$2"/>
+<Typo word="Withhold" find="\b([Ww])ith([oe])ld(s?|ing)\b" replace="$1ithh$2ld$3"/>
+<Typo word="Within" find="\b([Ww])ithing\b" replace="$1ithin"/>
+<Typo word="Wonderful" find="\b([Ww])onerful(ly)?\b" replace="$1onderful$2"/>
+<Typo word="Word" find="\b([Ww])rod(ing|ed|s?)\b" replace="$1ord$2"/> 
+<Typo word="Wor(d/k)" find="\bOwr([dk])(s?|ers?|ed|ing|y)\b" replace="Wor$1$2"/>
+<Typo word="wor(d/k)" find="\bowr([dk])(s?|ers?|ed|ing|y)\b" replace="wor$1$2"/>
+<Typo word="(Un)Work" find="\b(W|w|[Uu]nw)(?:rok|okr)(ed|ing|abl[ey]|ability|m[ae]n[a-z]*|ingm[ae]n|bench|fare|(er|shop|room|out|(sp|pl)ace|table|ho[ru]se|book|boat|load|a?day|flow|folk|up|week|aholic|station)?s?)\b" replace="$1ork$2"/>
+<Typo word="Workstation" find="\b([Ww])ork(?:sts|\-sta)tion(s)?\b" replace="$1orkstation$2"/> 
+<Typo word="World" find="\b([Ww])orls\b" replace="$1orld"/>
+<Typo word="World" find="\b(W|w|[Uu]nderw)(?:rol|olr)d(s?|ly|wide)\b" replace="$1orld$2"/>
+<Typo word="World Wide Web" find="\b[Ww]orld[-\s]*wide\s+[Ww]eb\b" replace="World Wide Web"/> 
+<Typo word="Worldwide" find="\b([Ww])ord?l(-?)wide\b" replace="$1orld$2wide"/>
+<Typo word="Worsen" find="\b([Ww])orsten([a-z]*)\b" replace="$1orsen$2"/>
+<Typo word="Worthwhile" find="\b([Ww])orthwile(ness)?\b" replace="$1orthwhile$2"/>
+<Typo word="Would" find="\b([Ww])(?:uould|oudl)\b" replace="$1ould"/>
+<Typo word="Would" find="\bOwu(?:ld|dl)\b" replace="Would"/>
+<Typo word="would" find="\bowu(?:ld|dl)\b" replace="would"/>
+<Typo word="Wrestler" find="\b([Ww])rester(s)?\b" replace="$1restler$2"/>
+<Typo word="Write" find="\b([Ww])(?:irt?|rit|riit?)t(er?s?|ing|ten)\b" replace="$1rit$2"/>
+<Typo word="Wr(i/o)te" find="\b([Ww])r([io])et(s)?\b" replace="$1r$2te$3"/>
+<Typo word="write" find="\brwite(s)?\b" replace="write$1"/>
+<Typo word="Write" find="\bRwite(s)?\b" replace="Write$1"/>
+<Typo word="Written" find="\b([Ww])riten\b" replace="$1ritten"/>

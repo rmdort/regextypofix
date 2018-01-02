@@ -1,6 +1,7 @@
 RegEx Typo Fix
 ====
-Simple Regex spellchecker based on Wikipedia's `RegExTypoFix` project
+
+Regex spellchecker based on Wikipedia's `RegExTypoFix` project
 
 .. _RegExTypoFix: https://en.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser/Typos
 

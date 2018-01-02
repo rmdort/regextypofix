@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='regextypofix',
-    version='0.0.1',
+    version='1.0.0',
 
     # PyPI metadata
     author='Vinay M',

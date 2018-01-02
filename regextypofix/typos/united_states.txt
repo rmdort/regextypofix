@@ -1,0 +1,51 @@
+<Typo word="Ala(bam/sk)a" find="\bala(bam|sk)(a|i?ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ala$1$2"/>
+<Typo word="Arizona" find="\barizon(a|i?ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Arizon$1"/><!--avoid domains & URLs-->
+<Typo word="Arkansas" find="\barkans(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Arkans$1"/>
+<Typo word="California" find="\bcaliforni(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Californi$1"/>
+<Typo word="Carolina" find="\bcarolin(an?s?)\b(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Carolin$1"/><!--avoid species-->
+<Typo word="Colorado" find="\bcolorad(o|ans?)\b(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Colorad$1"/><!--avoid species-->
+<Typo word="Connecticut" find="\b(con+|Con)ecticut\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Connecticut"/>
+<Typo word="Delaware" find="\bdelawar(es?|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Delawar$1"/>
+<Typo word="Florida" find="\bflorid(a|ians?)\b(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Florid$1"/><!--avoid species-->
+<Typo word="Guam" find="\bguam\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Guam"/>
+<Typo word="Hawaii" find="\bhawaii(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Hawaii$1"/>
+<Typo word="Idaho" find="\bidaho(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Idaho$1"/>
+<Typo word="Indiana(polis)" find="\bindian(a|i?ans?|apolis|town)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Indian$1"/><!--avoid domains & URLs-->
+<Typo word="Iowa" find="\biow(an?s?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Iow$1"/>
+<Typo word="Kansas" find="\bkansa(ns?|s)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kansa$1"/>
+<Typo word="Kentucky" find="\bkentuck(y|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Kentuck$1"/>
+<Typo word="Louisiana" find="\blouisian(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Louisian$1"/>
+<Typo word="Maine" find="\bmaine\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Maine"/>
+<Typo word="Maryland" find="\bmarylan(d|ders?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Marylan$1"/>
+<Typo word="Massachusetts" find="\b(?:massachusetts|[Mm](?:as+achuse|asachuset?|as+achusset?)ts+)(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Massachusetts$1"/>
+<Typo word="Michigan" find="\bmichigan(ders?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Michigan$1"/>
+<Typo word="Minnesota" find="\bminnesot(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Minnesot$1"/>
+<Typo word="Mississippi" find="\b(?:mississippi|[Mm]is(?:issip|sisip|sissi)pi)(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Mississippi$1"/>
+<Typo word="Missouri" find="\bmissour(i|ians?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Missour$1"/>
+<Typo word="Montana" find="\bmontan(a|ans?)\b(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Montan$1"/><!--avoid species-->
+<Typo word="Nebraska" find="\bnebrask(a|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nebrask$1"/>
+<Typo word="Nevada" find="\bnevad(a|i?ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Nevad$1"/>
+<Typo word="New England_" find="\b[Nn]ew\s{0,9}[Ee]ngland(ers?)?\b(?<!new\s{0,9}England\b|New\sEngland(ers?)?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="New England$1"/><!--avoid 'new England' & self match --->
+<Typo word="New Jersey" find="\bnew\s*[Jj]ersey(ites?)?\b" replace="New Jersey$1"/>
+<Typo word="New Hampshire_" find="\bhampsh?ire\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Hampshire"/><!--not 'new =>New' as Hampshire UK-->
+<Typo word="New Mexico_" find="\b[Nn]ew\s{0,9}[Mm]exic(o|ans?)\b(?<!new\s{0,9}Mexicans?\b|New\sMexic(o|ans?)\b)(?<!\.[^\s\.]{0,999})" replace="New Mexic$1"/><!--avoid 'new Mexican(s)' & self match-->
+<Typo word="New Netherland" find="\bNew\s*[Nn]etherlands\b" replace="New Netherland"/>
+<Typo word="New York" find="\bnew\s*[Yy]ork(ers?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="New York$1"/><!--avoid domains & URLs-->
+<Typo word="North Carolina/Dakota" find="\bnorth\s*([Cc]arolin|[Dd]akot)a(n?s?)\b" replace="North $1a$2"/>
+<Typo word="Ohio" find="\bohio(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Ohio$1"/>
+<Typo word="Oklahoma" find="\boklahoma(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Oklahoma$1"/>
+<Typo word="Oregon" find="\boregon(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Oregon$1"/>
+<Typo word="Pennsylvania" find="\bpennsylvania(ns?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Pennsylvania$1"/>
+<Typo word="Puerto Rico" find="\bpuerto\s+ric(o|ans?)\b" replace="Puerto Ric$1"/>
+<Typo word="South Carolina/Dakota" find="\bsouth\s*([Cc]arolin|[Dd]akot)a(n?s?)\b" replace="South $1a$2"/>
+<Typo word="Rhode Island" find="\b(?:Rhode\s*i|rhode\s*[Ii])sland(ers?)?\b" replace="Rhode Island$1"/>
+<Typo word="Tennessee" find="\btennesse(e|ans?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Tennesse$1"/>
+<Typo word="Texas" find="\btexa(s|ns?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Texa$1"/>
+<Typo word="United States" find="\b[Uu]nited\s*states\b" replace="United States"/>
+<Typo word="United States" find="\b[Uu]nite[ds][sS]tates\b" replace="United States"/>
+<Typo word="Utah" find="\butah(ans?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Utah$1"/><!--avoid domains & URLs-->
+<Typo word="Vermont" find="\bvermont(ers?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Vermont$1"/>
+<Typo word="Virginia_" find="\b(?:Vi|vir)gini?(a|ans?)\b(?<!\b\p{Lu}\.\s+virginia)(?!'')(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Virgini$1"/><!--avoid domains, URLs, & species-->
+<Typo word="Washington" find="\bwashington(ians?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Washington$1"/><!--avoid domains & URLs-->
+<Typo word="West Virginia" find="\bwest\s*[Vv]irginia(ns?)?\b" replace="West Virginia$1"/>
+<Typo word="Wyoming" find="\bwyoming\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Wyoming"/>

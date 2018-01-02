@@ -1,0 +1,4 @@
+<Typo word="A …" find="\b(?<!')([Aa])n\s+([Ee]u[A-Za-z]+|Ukrain[eians]+|[Uu](nanim[a-z]+|ni(form|on|later[a-z]+|que[a-z]*|ty?|ted|vers[a-z]+)|ra[a-z]+|ser|s(?:ua|efu)l|til[a-z]+)(ly)?)(?<!Euler[a-z]{0,99})\b" replace="$1 $2"/><!--don't match Xi'an-->
+<Typo word="A h-" find="\b(?<!')([Aa])n\s+(?<!(?:\]\]|⌊)an\s)h(alf|a[nr]dy?|[aio]t|e(ad|lp|avy)[a-z]*|igh[a-z]*|oax|omo?e[a-z]*|ouse|uge|uman)\b(?<!\]an\b)" replace="$1 h$2"/><!--don't match [[Europe]]an higher..., Xi'a high etc.-->
+<Typo word="An h-" find="\b([Aa])\s+h(eir(ess|loom)?|our(ly)?|onest|onou?r(abl[ey]|ary)?)\b" replace="$1n h$2"/>
+<Typo word="An 8th/11th/18th" find="\ba\s+(8|11|18)th([-\s])" replace="an $1th$2"/>

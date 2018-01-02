@@ -1,0 +1,211 @@
+<Typo word="Palme d'Or" find="\b[Pp]alme\s+(?:D['`’][Oo]|[Dd][`’][Oo]|[Dd]['`’]o)r\b" replace="Palme d'Or"/>
+<Typo word="Palme d'Or" find="\b[Pp]alm\s+[dD]['`’][Oo]r\b" replace="Palme d'Or"/>
+<Typo word="Pamphlet" find="\b([Pp])am[fp]let(s|ing)?\b" replace="$1amphlet$2"/>
+<Typo word="Pantomime" find="\b([Pp])antomine(s)?\b" replace="$1antomime$2"/>
+<Typo word="Paper" find="\b([Pp])apaer(s|ing|ed)?\b" replace="$1aper$2"/>
+<Typo word="Papier-mâché" find="\b([Pp])ap(?:i?er[-\s]+[Mm]ach[é]|ier mâché)\b" replace="$1apier-mâché"/><!--"papier-mache" should not be replaced, see [[wikt:papier-mache]]-->
+<Typo word="Parade" find="\b([Pp])erade([ds])\b" replace="$1arade$2"/>
+<Typo word="(Un)Parallel" find="\b(P|p|[Uu]np)ar(?:rall?e|r?alel?|r+alle|el+e)l(s?|i[sz]e[ds]?|isms?|epipeds?|ograms?|ed)\b" replace="$1arallel$2"/>
+<Typo word="Parallelly" find="\b([Pp])arr?al(?:ell|lel)?y\b" replace="$1arallelly"/>
+<Typo word="Paraphernalia" find="\b([Pp])araphr?enalia\b" replace="$1araphernalia"/>
+<Typo word="Parenthesis" find="\b([Pp])aranthe(s[ei]s|tic[a-z]+)\b" replace="$1arenthe$2"/>
+<Typo word="Parishioner" find="\b([Pp])ar(?:r+is+h?i?|is+i?|is+h)oner(s?|ship)\b" replace="$1arishioner$2"/>
+<Typo word="Parliament" find="(?!\bParlament\b)\b([Pp])ar?l[ai]i?ment(s?|ar[a-z]+)\b" replace="$1arliament$2"/><!--avoid common proper name for foreign parliament "Parlament-->
+<Typo word="Parmesan" find="\bparmesan\b" replace="Parmesan"/>
+<Typo word="Participate" find="\b([Pp])a[rt]+[ei]?c[aei]*pa?(?<!articipa)(nts?|te[ds]?|ting|tion|tor[sy]?|nc[ey])\b" replace="$1articipa$2"/>
+<Typo word="Particular" find="\b([Pp])a(?:rticlu?|ticul)a([a-z]+)\b" replace="$1articula$2"/>
+<Typo word="Particular" find="\b([Pp])ar(?:itucla|ticual)(r[a-z]*)\b" replace="$1articula$2"/>
+<Typo word="Particularly" find="\b([Pp])articu(?:l+al?r|all?|ari?l|l+ar[ei]l+|alr|llarl)y\b" replace="$1articularly"/>
+<Typo word="Party" find="\b([Pp])ary\b" replace="$1arty"/>
+<Typo word="(Sur)pass" find="\b(p|[Ss]urp)as(e[ds]|ing)\b" replace="$1ass$2"/><!--avoid Pasing a place in Germany-->
+<Typo word="Passenger" find="\b([Pp])a(?:sen|sse)ger(s?)\b" replace="$1assenger$2"/>
+<Typo word="Passer-by" find="\b([Pp])asser\s+bye?r?(s?)\b" replace="$1asser$2-by"/> 
+<Typo word="Passers(-)by" find="\b([Pp])asser(-?)bye?r?s\b" replace="$1assers$2by"/> 
+<Typo word="Pastime" find="\b([Pp])as[st]tim(es?)\b" replace="$1astim$2"/>
+<Typo word="Pastoral" find="\b([Pp])astural\b" replace="$1astoral"/>
+<Typo word="Patent" find="\b([Pp])attent(ed|ing|s?)\b" replace="$1atent$2"/>
+<Typo word="(Im)Patience" find="\b(P|p|[Ii]mp)aitien(t|ce)\b" replace="$1atien$2"/>
+<Typo word="Patrolling" find="\b([Pp])atrol(ing|e[dr])\b" replace="$1atroll$2"/>
+<Typo word="Pavilion" find="\b([Pp])avillion(s?)\b(?!,? [Ww]yoming\b)" replace="$1avilion$2"/><!--Not [[Pavillion, Wyoming]]-->
+<Typo word="Pejorative" find="\b([Pp])erjor[ai]ti(ve[a-z]*|ons?)\b" replace="$1ejorati$2"/>
+<Typo word="Peloton" find="\b([Pp])eleton\b" replace="$1eloton"/>
+<Typo word="Penélope Cruz" find="\bPenelope\s+Cruz\b" replace="Penélope Cruz"/>
+<Typo word="Peninsula" find="\b([Pp])en(?:n?is|nins|sin)ul(ar?)\b" replace="$1eninsul$2"/>
+<Typo word="Pennsylvania" find="\b[Pp]en(?:sylva|n?sylvan)nia(ns?)?\b" replace="Pennsylvania$1"/>
+<Typo word="People" find="\b([Pp])(?:eop[el]|oeple)(d?|s)\b" replace="$1eople$2"/>
+<Typo word="People" find="\b([Pp])o?eo(?:lpe|pel)(s?)\b" replace="$1eople$2"/>
+<Typo word="(Un/Mis/Ap)Perceive" find="\b(P|p|[Uu]np|[Mm]isp|[Aa]pp)(?:rec[ei]+|ercie)v(e[ds]?|ing|abl[ey])\b" replace="$1erceiv$2"/>
+<Typo word="Percent" find="\b([Pp])recent(ages?)?\b" replace="$1ercent$2"/>
+<Typo word="Perform" find="\b([Pp])e(?:for|rfo(?:re)?)m(s?|ed|ers?|ing|able|ances?)\b" replace="$1erform$2"/>
+<Typo word="(Non)Performance" find="\b(P|p|[Nn]onp)(?:er?|re)form(?:en|n?a)(ces?)\b" replace="$1erforman$2"/>
+<Typo word="Performs" find="\b([Pp])erfore?mes\b" replace="$1erforms"/>
+<Typo word="Perhaps" find="\b([Pp])er(?:hasp|heaps|hpas|phas)\b" replace="$1erhaps"/>
+<Typo word="Perimeter" find="\b([Pp])erimite(rs?)\b" replace="$1erimete$2"/>
+<Typo word="Period" find="\b([Pp])rer?iod(s?|ic|ical(s?|ly))\b" replace="$1eriod$2"/>
+<Typo word="Peripatetic" find="\b([Pp])eripathetic\b" replace="$1eripatetic"/>
+<Typo word="Peripheral" find="\b([Pp])eripherial(s?|ly)\b" replace="$1eripheral$2"/>
+<Typo word="Perjury" find="\b([Pp])erjery\b" replace="$1erjury"/>
+<Typo word="(Im)Permanent" find="\b(P|p|[Ii]mp)er(?:man[ai]|m[ei]n[aei]|n[aei]m[aei])n(t[a-z]*|c[ey])\b" replace="$1ermanen$2"/>
+<Typo word="Perpendicular" find="\b([Pp])erpindicular(ly)?\b" replace="$1erpendicular$2"/>
+<Typo word="Perseverance" find="\b([Pp])erserver[ae]n(ce|t|tly)\b" replace="$1erseveran$2"/>
+<Typo word="Persevere" find="\b([Pp]erse)rver(e[ds]?|ing)\b" replace="$1ver$2"/>
+<Typo word="Persistent" find="\b([Pp])er(?:iste)n(t|tly|c[ey])\b" replace="$1ersisten$2"/><!--Don't fix persistant, a concept in ontology-->
+<Typo word="Personage" find="\b([Pp])erson(nages?)\b" replace="$1erso$2"/>
+<Typo word="Personal" find="\b([Pp])eros?nal(ity|ly)?\b" replace="$1ersonal$2"/>
+<Typo word="Personnel" find="\b([Pp])ersonn?ell\b" replace="$1ersonnel"/>
+<Typo word="Persuade" find="\b([Pp])(?:ursua|ersu|ususa)(de[ds]?|ding|si[a-z]+)\b" replace="$1ersua$2"/>
+<Typo word="Perturbation" find="\b([Pp])ertub(ed|ations?)\b" replace="$1erturb$2"/>
+<Typo word="Pessary" find="\b([Pp])essiary\b" replace="$1essary"/>
+<Typo word="(Com)Petition" find="\b(P|p|[Cc]omp)etetion(ed|ing|s)?\b" replace="$1etition$2"/>
+<Typo word="Pharaoh" find="\b([Pp])haroah(s?)\b(?!\sSanders)(?<!(American|Ashley|Jay)\sPharoah|illage\sof\sthe\sPharoahs)" replace="$1haraoh$2"/>
+<Typo word="Phenomenal" find="\b([Pp])heno(?:nmen|menon|nem)a(l|lly)?\b" replace="$1henomena$2"/>
+<Typo word="Phenomenally" find="\b([Pp])henomenonly\b" replace="$1henomenally"/>
+<Typo word="Phenomenon" find="\b([Pp])heno(?:m(?:on)?(?:enom|onon)|n[eo]mon)\b" replace="$1henomenon"/>
+<Typo word="Philanthropy" find="\b([Pp])hila(?:n?thr|ntr|nth)oph?(?<!lanthrop)(y|ies|ists?|ically|ical|ic|e)\b" replace="$1hilanthrop$2"/>
+<Typo word="Philosophical" find="\b([Pp])h(?:ill?i|yll?o)sophical(ly)?\b" replace="$1hilosophical$2"/>
+<Typo word="Philosophy" find="\b([Pp])hil(?:osa?|[ai]?so)ph(ers?|ic[a-z]*|y|ies|i[sz][a-z]+)\b" replace="$1hilosoph$2"/>
+<Typo word="Pho(n/t)ograph" find="\b([Pp])ho([nt])a?graph(s?|y|ic[a-z]*|ers?)\b" replace="$1ho$2ograph$3"/>
+<Typo word="Phoenician" find="\b[Pp]honecian(s?)\b" replace="Phoenician$1"/>
+<Typo word="Physics" find="\b([Pp])hisic(s?|ists?|al(s?|ly|ity|is[mt]s?)|ize[ds]?|ians?)\b" replace="$1hysic$2"/>
+<Typo word="Piña Colada" find="\bPina\s+[Cc]olada(s)?\b" replace="Piña Colada$1"/>
+<Typo word="Picture" find="\b([Pp])citur(es?|ed|ing)\b" replace="$1ictur$2"/>
+<Typo word="Piece" find="\b([Pp])eic(e[ds]?|ing|emeal|ework)\b" replace="$1iec$2"/>
+<Typo word="Pilgrimage" find="\b([Pp])ilgr(?:im|a)mage(s?)\b" replace="$1ilgrimage$2"/>
+<Typo word="Pineapple" find="\b([Pp])inn?app?le(s)?\b" replace="$1ineapple$2"/>
+<Typo word="Pinocchio" find="\bPin(?:noc?|o)chio\b" replace="Pinocchio"/>
+<Typo word="Pioneer" find="\b([Pp])i(?:on(?:n|n?ee)|non)e+r(s|ed|ing)?\b" replace="$1ioneer$2"/>
+<Typo word="Place" find="\b([Pp])alce([a-z]*)\b" replace="$1lace$2"/>
+<Typo word="(Dis/Em/Mis/Re)Placement" find="\b([Rr]ep|[DdMm]isp|[Ee]mp|P|p)lacment(s?)\b" replace="$1lacement$2"/>
+<Typo word="Plácido Domingo" find="\bPlacido\s+Domingo\b" replace="Plácido Domingo"/>
+<Typo word="Plagiarism" find="\b([Pp])lagarism\b" replace="$1lagiarism"/>
+<Typo word="Plague" find="\b([Pp])laug(e[ds]?|ing)\b" replace="$1lagu$2"/>
+<Typo word="Plaintiff" find="\b([Pp])lantiff(s?)\b" replace="$1laintiff$2"/>
+<Typo word="_plant life" find="(?!\bPlantlife\b)\b([Pp])lant-?life\b" replace="$1lant life"/><!--ignore proper n. Plantlife-->
+<Typo word="Plantation" find="\b([Pp])la[nt]ation(s?)\b" replace="$1lantation$2"/>
+<Typo disable="Plaque" find="\b([Pp])lacque(s?)\b" replace="$1laque$2"/><!--not placque http://www.merriam-webster.com/medical/placque-->
+<Typo word="Plateau" find="\b([Pp])late(us?)\b" replace="$1latea$2"/>
+<Typo word="Platinum" find="\b([Pp])lat(?:ni?|ini)um(s?)\b" replace="$1latinum$2"/>
+<Typo word="Playwright" find="\b([Pp])lay(?:right|writer?)(s?)\b" replace="$1laywright$2"/>
+<Typo word="(Un)Pleasant" find="\b(P|p|[Uu]np)l(?:a?esa|ease)nt(ly|ness)?\b" replace="$1leasant$2"/>
+<Typo word="Plebiscite" find="\b([Pp])leb[ei][cs]ite(s?)\b" replace="$1lebiscite$2"/>
+<Typo word="Plummet" find="\b([Pp])lum(?:met|et?)t(s?|ing|ed)(?<!Rue Plumet)\b" replace="$1lummet$2"/>
+<Typo word="Poem" find="\b([Pp])eom(s)?\b" replace="$1oem$2"/>
+<Typo word="Poetry" find="\b([Pp])(?:eotr|oet)y\b" replace="$1oetry"/>
+<Typo word="Point" find="\b(P|p|[Dd]isapp|[Aa]pp)iont(s?|ers?|ed|ing|ments?)\b" replace="$1oint$2"/>
+<Typo word="Poison" find="\b([Pp])o(?:isi|sio)n(s?|ed|ous|ing)\b" replace="$1oison$2"/>
+<Typo word="Political" find="\b([Pp])ol(?:itc|t?ic|iti)al(ly)?\b" replace="$1olitical$2"/>
+<Typo word="Politician" find="\b([Pp])oliti(?:ti|c)an(s?)\b" replace="$1olitician$2"/>
+<Typo word="Pollinate" find="\b([Pp])olinat([a-z]+)\b" replace="$1ollinat$2"/>
+<Typo word="Pollute" find="\b([Pp])olut(e[ds]?|ing|ion)\b" replace="$1ollut$2"/>
+<Typo word="Pölsa" find="\b([Pp])olsa\b" replace="$1ölsa"/>
+<Typo word="Polyphonic" find="\b([Pp])olyphonyic\b" replace="$1olyphonic"/>
+<Typo word="Polysaccharide" find="\b([Pp])olysacc?(?:aride|charid)(s)?\b" replace="$1olysaccharide$2"/>
+<Typo word="Pomegranate" find="\b([Pp])omegranite(s?)\b" replace="$1omegranate$2"/>
+<Typo word="Popular" find="\b([Pp])opulare\b" replace="$1opular"/>
+<Typo word="(Pop/Reg)ularity" find="\b([Pp]op|Rrr]eg)ularaty\b" replace="$1ularity"/>
+<Typo word="Popularly" find="\b(P|p)opular([ia]l)?y\b" replace="$1opularly"/>
+<Typo word="Population" find="\b([Pp])op(?:ulati|luatio|oulatio)(ns?)\b" replace="$1opulatio$2"/>
+<Typo word="Portrait" find="\b([Pp])r?o(?:tr|rt)a(y(?:s?|als?|ed|ing)|it(?:ure)?s?)\b" replace="$1ortra$2"/>
+<Typo word="Portraying" find="\b([Pp])ortraing\b" replace="$1ortraying"/>
+<Typo word="Portugal" find="\b[Pp]ortugual\b" replace="Portugal"/>
+<Typo word="Portuguese" find="\b[Pp]ortug(?:u?e+u|e*)se\b" replace="Portuguese"/>
+<Typo word="Position" find="\b([Pp])(?:soi|os[st]i)tion(s?|ed|al(ly)?)\b" replace="$1osition$2"/>
+<Typo word="(Dis/Im/Re/Com/Sup)Position" find="\b(P|p|[Dd]isp|[Ii]mp|[Rr]ep|[Cc]omp|[Ss]upp)os(?:ititi?|[io]sti|ti)(on(s?|ed|ing|al(ly)?)|ve(s?|ly))\b" replace="$1ositi$2"/>
+<Typo word="(Dis/Re)Possess" find="\b(P|p|[Dd]isp|[Rr]ep)os(?:es?|se)s(e[ds]|ing|ions?|ive(s?|ly|ness)|ors?)\b" replace="$1ossess$2"/>
+<Typo word="Possesses" find="\b([Pp])ossessess\b" replace="$1ossesses"/>
+<Typo word="(Im)Possibility" find="\b(P|p|[Ii]mp)os(?:s?ibli|ibili)t(y|ies)\b" replace="$1ossibilit$2"/>
+<Typo word="(Im)Possible" find="(?<!\bè\s{0,9})\b(P|p|[Ii]mp)os(?:ib|sab|sibi)l([ey])\b" replace="$1ossibl$2"/>
+<Typo word="Posthumous" find="\b([Pp])ost(?:h?umos|humousl|homous)(ly)?\b" replace="$1osthumous$2"/>
+<Typo word="Potato" find="\b([Pp])otatoe\b" replace="$1otato"/>
+<Typo word="Potsdam" find="\bpostdam\b" replace="Potsdam"/>
+<Typo word="Power" find="\b([Pp])woer(ed|ful(?:ly)?)\b" replace="$1ower$2"/>
+<Typo word="Powerful" find="\b([Pp])o(?:ver|we)ful\b" replace="$1owerful"/>
+<Typo word="Practical" find="\b([Pa])racticle\b" replace="$1ractical"/>
+<Typo word="Practice" find="\b([Pp])ratic(e[ds]?|ing|al(ly)?)\b" replace="$1ractic$2"/>
+<Typo word="Practitioner" find="\b([Pp])racti(?:ci)?on(ers?)\b" replace="$1ractition$2"/>
+<Typo word="Prairie" find="\b([Pp])ra(?:iry|rie)(s)?\b" replace="$1rairie$2"/>
+<Typo word="Pre-Columbian" find="\b([Pp])re-Colombian\b" replace="$1re-Columbian"/>
+<Typo word="Precursor" find="\b([Pp])recu(?:rse|so)r(s)?\b" replace="$1recursor$2"/>
+<Typo word="Predecessor" find="\b([Pp])recedessor(s)?\b" replace="$1redecessor$2"/>
+<Typo word="Predecessor" find="\b([Pp])red(?:[ai][cs]+es+[eo]|[aie](?:s|[cs]{2,})es+[eo]|[aie][cs]+es[eo]|[aie][cs]+es+e)r(s?)\b" replace="$1redecessor$2"/>
+<Typo word="Predictable" find="\b([Pp])redicatbl([ey])\b" replace="$1redictabl$2"/>
+<Typo word="Prediction" find="\b([Pp])rediciton(s)?\b" replace="$1rediction$2"/>
+<Typo word="Predominately" find="\b([Pp])redomiantly\b" replace="$1redominately"/>
+<Typo word="Preeminent" find="\b([Pp])reminen(t|ce)\b" replace="$1reeminen$2"/>
+<Typo word="Preferably" find="\b([Pp])referrabl([ey])\b" replace="$1referabl$2"/>
+<Typo word="Pregnant" find="\b([Pp])reg(?:a|ne|ana)n(t|cy|cies)\b" replace="$1regnan$2"/>
+<Typo word="Premier(e)" find="\b([Pp])r(?:imie|eme?i)r(s?|e[ds]?|ing)\b" replace="$1remier$2"/>
+<Typo word="Premillennial" find="\b([Pp])remillenial\b" replace="$1remillennial"/>
+<Typo word="Preoccupy" find="\b([Pp])reocup(y|ie[ds]|ations?)\b" replace="$1reoccup$2"/>
+<Typo word="Prerogative" find="\b([Pp])erogative(s?)\b" replace="$1rerogative$2"/>
+<Typo word="Presence" find="\b([Pp])res(?:(?:a|ce)nc|ens)e\b" replace="$1resence"/>
+<Typo word="Presidential" find="\b([Pp])res(?:edenti|idenit)al\b" replace="$1residential"/>
+<Typo word="Prestigious" find="\b([Pp]res)(?:itig[ie]|i?teg[ie]|i?t[ie]ge|itgi|tig)ous(ly)?\b" replace="$1tigious$2"/>
+<Typo word="Presumably" find="\b([Pp])resum(?:abe|ib)ly\b" replace="$1resumably"/>
+<Typo word="Priest" find="\b([Pp])reist(s?|ly|hoods?)\b" replace="$1riest$2"/>
+<Typo word="Priesthood" find="\b([Pp])riestood\b" replace="$1riesthood"/>
+<Typo word="Primitive" find="\b([Pp])rimative(s?|ly)\b" replace="$1rimitive$2"/>
+<Typo word="Primordial" find="\b([Pp])rimordal\b" replace="$1rimordial"/>
+<Typo word="Princip(al/le)" find="\b([Pp])ri(?:ci|nc|nici)p(al(s?|ly)|le[ds]?)\b" replace="$1rincip$2"/>
+<Typo word="(Im)Prison" find="\b(P|p|[Ii]mp)rision(s?|ers?|ed|ing|ment)\b" replace="$1rison$2"/> 
+<Typo word="Private" find="\b([Pp])rivi?t(ely|es?|i[sz](e[ds]?|ing|ations?))\b" replace="$1rivat$2"/>
+<Typo word="Privilege" find="\b(P|p|[Uu]nderp)riv(?:i?led|[ae]l[ei]d?|il[ai]|elle)g(e[dsr]?|ing)\b" replace="$1rivileg$2"/>
+<Typo word="Probabilistic" find="\b([Pp])robablistic\b" replace="$1robabilistic"/>
+<Typo word="Probability" find="\b([Pp])roba(?:bila|libi)ty\b" replace="$1robability"/>
+<Typo word="(Im)Probably" find="\b([Pp]|[Ii]mp)ro(?:bal?|b|pab)l([ey])\b" replace="$1robabl$2"/>
+<Typo word="Problem" find="\b([Pp])(?:orble|robel)m(s?)\b" replace="$1roblem$2"/>
+<Typo word="Procedure" find="\b([Pp])roce(?:edure|dger)(s?)\b" replace="$1rocedure$2"/>
+<Typo word="Proceed" find="\b([Pp])rocede?(ed|ings?|s)?\b" replace="$1roceed$2"/> 
+<Typo word="Process" find="\b([Pp])ro(?:cces*|ce|es?)s(e[ds]|ing|ors?|ions?)?\b" replace="$1rocess$2"/>
+<Typo word="Processor" find="\b([Pp])rocesser(s)?\b" replace="$1rocessor$2"/>
+<Typo word="Proclaim" find="\b([Pp])roclam(e[dr]|ing)\b" replace="$1roclaim$2"/>
+<Typo word="Profess_" find="\b([Pp])rof(?:es{2,}|fes?)s(e[ds]|ing)?\b" replace="$1rofess$2"/>
+<Typo word="Profession" find="\b([Pp])roff?esion(s?)\b" replace="$1rofession$2"/>
+<Typo word="(Non/Semi/Un)Professional" find="\b([Nn]onp|[Uu]np|[Se]mip|[Pp])rof(?:fes+ion+al?|esion+al?|essionnal?|essional)l(s?|ly|i[sz][a-z]+)\b(?<!ofesional\b)" replace="$1rofessional$2"/><!--Don't match Spanish word profesional-->
+<Typo word="Professor" find="\b([Pp])rof(?:f?es[oe]|f?esse|fess[oe])r(s)?\b(?!\s+de\b)(?<!\b(?:[Dd]el|[AaEe]l|[EeUu]n)\s+\b([Pp])rof(?:f?es[oe]|f?esse|fess[oe])r(s)?\b(?!\s+de\b))" replace="$1rofessor$2"/><!--Avoid matching foreign "profesor" thru use of lookaround for various articles-->
+<Typo word="Profesor (Spanish)" find="\b([Pp])rofessor(s)?\b(?<=\b(?:[Dd]el|[Ee]l)\s+\b([Pp])rofessor(s)?\b)" replace="$1rofesor$2"/>
+<Typo word="Proficient" find="\b([Pp])rof(?:fi[stc]i[ea]|i[stc]ia)n(t|cy|tly)\b" replace="$1roficien$2"/>
+<Typo word="Programmable" find="\b([Pp])rogramable\b" replace="$1rogrammable"/>
+<Typo word="Progress" find="\b([Pp])(?:rog|togr)ess(ed|ing|ive[a-z]*|ions?)\b" replace="$1rogress$2"/>
+<Typo word="Proliferation" find="\b([Pp])reliferat([a-z]+)\b" replace="$1roliferat$2"/>
+<Typo word="pro-life" find="\bpro\s*life(rs?)?\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="pro-life$1"/><!--exclude cap. form due to various proper nouns-->
+<Typo word="Prolific" find="\b([Pp])rofilic(ly)?\b" replace="$1rolific$2"/>
+<Typo word="Promiscuous" find="\b([Pp])romiscous(ly)?\b" replace="$1romiscuous$2"/>
+<Typo word="Promote" find="\b([Pp])(?:romot|omo)t(ions?|e[ds]|ing)\b" replace="$1romot$2"/>
+<Typo word="Prompt" find="\b([Pp])ropmt(s|ed|ing)\b" replace="$1rompt$2"/>
+<Typo disabled="Pronominal" find="\b([Pp])ronomial\b" replace="$1ronominal"/><!--see http://en.wiktionary.org/wiki/pronomial-->
+<Typo word="Pronounced" find="\b([Pp])rou?nou[nc]+h?(?<!ronounc)(e[ds]?|ing|ments?)\b" replace="$1ronounc$2"/>
+<Typo word="Pronouncement" find="\b([Pp])rouncement(s)?\b" replace="$1ronouncement$2"/>
+<Typo word="Pronunciation" find="\b([Pp])ron(?:ou?nci?ation|uncation|unciaton|uciation|o?unici?ati?on)(s?)\b" replace="$1ronunciation$2"/>
+<Typo word="Propaganda" find="\b([Pp])r(?:opo|apa)gand(as?|i[sz]e[ds]?|ists?)\b" replace="$1ropagand$2"/>
+<Typo word="Propaganda" find="\b([Pp])ropogand([a-z]+)\b" replace="$1ropagand$2"/>
+<Typo word="Propagate" find="\b([Pp])ropogat(e[ds]?|ing|ion)\b" replace="$1ropagat$2"/>
+<Typo word="proper" find="\bpropper(ly)?\b" replace="proper$1"/><!--avoid surname Propper-->
+<Typo word="Prophecy" find="\b([Pp])rophac(ies|y)\b" replace="$1rophec$2"/>
+<Typo word="Prophesied_" find="\b([Pp]rophe)c(ied|iers?|ying)\b" replace="$1s$2"/>
+<Typo word="(Dis)Proportion" find="\b(P|p|[Dd]isp)(?:opor|ropo)tion(ate(?:ly)?|al(ly)?|s)?\b" replace="$1roportion$2"/>
+<Typo word="(Dis)Proportionate" find="\b(P|p|[Dd]isp)roportiat(e|ely)\b" replace="$1roportionat$2"/>
+<Typo word="Proposition" find="\b([Pp])ropostion(s?|ed)\b" replace="$1roposition$2"/>
+<Typo word="Proprietary" find="\b([Pp])ropietar(y|ily|ies)\b" replace="$1roprietar$2"/>
+<Typo word="Proselytizing" find="\b([Pp])roseletyzing\b" replace="$1roselytizing"/>
+<Typo word="Protagonist" find="\b([Pp])rot[ao]ganis(ts?)\b" replace="$1rotagonis$2"/>
+<Typo word="Protect" find="\b([Pp])retect([a-z]*)\b(?<!tect(o|al|um))" replace="$1rotect$2"/><!--don't match pretecto, pretectal or pretectum--> 
+<Typo word="Protein" find="\b([Pp])rotie(n(ase|oid|uria)?s?|ds?)\b" replace="$1rotei$2"/>
+<Typo word="Protestant" find="\bprotest[ae]nt(s?|ism)\b" replace="Protestant$1"/>
+<Typo word="Protocol" find="\b([Pp])rotocal(s)?\b" replace="$1rotocol$2"/>
+<Typo word="Protuberance" find="\b([Pp])rot(?:rubera|r?ubere)n(ces?|t|tly)\b" replace="$1rotuberan$2"/>
+<Typo word="(Ap/Im/Dis/Disap/Re)Prove" find="\b(P|p|[Aa]pp|[Ii]mp|[Dd]isp|[Dd]isapp|[Rr]ep)roov(e[dnrs]?|ing[a-z]*|abl[ey]|al)\b" replace="$1rov$2"/>
+<Typo word="Provide" find="\b([Pp])(?:orvid|rovd)(e(?:d|rs?)|ing)\b" replace="$1rovid$2"/>
+<Typo word="Provincial" find="\b([Pp])rov(?:i?ni?ci?|ici)(?<!vinci)al(ly)?\b" replace="$1rovincial$2"/>
+<Typo word="Provisional" find="\b([Pp])rovisonal(ly)?\b" replace="$1rovisional$2"/>
+<Typo word="Provocative" find="\b([Pp])rovacative(ly)?\b" replace="$1rovocative$2"/>
+<Typo word="Proximity" find="\b([Pp])roximty\b" replace="$1roximity"/>
+<Typo word="Psyche" find="\b([Pp])(?:hych|sy[ch]|ysc)(es?|(edel|ot)?ics?|iatr[a-z]+|olog[a-z]+)\b" replace="$1sych$2"/>
+<Typo word="(Un)Published" find="\b(P|p|[Uu]np)ub(?:ish|lis)(ed|ing|er?s?|able)?\b" replace="$1ublish$2"/>
+<Typo word="Puccini" find="\bpucini\b" replace="Puccini"/>
+<Typo word="Pumpkin" find="\b([Pp])umkin\b" replace="$1umpkin"/>
+<Typo word="Purchase" find="\b([Pp])uchas(e[ds]?|ing)\b" replace="$1urchas$2"/>
+<Typo word="Purport" find="\b([Pp])(?:urpo|erpor?)t([a-qt-z]*)\b" replace="$1urport$2"/><!--avoid -rated suffix-->
+<Typo word="Purpose" find="\b([Pp])(?:r?up|upr)os(e([ds]?|ful|less)(ly)?|ing)\b" replace="$1urpos$2"/>
+<Typo word="Purposely" find="\b([Pp])urposedly\b" replace="$1urposely"/>
+<Typo word="Pursue" find="\b([Pp])ersu(e[ds]?|ers?|ing|its?|able|ant|ance)\b" replace="$1ursu$2"/>

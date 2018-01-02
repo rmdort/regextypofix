@@ -1,0 +1,127 @@
+<Typo word="Dardanelles" find="\b(?:[Dd]arde|darda)nelles\b" replace="Dardanelles"/>
+<Typo word="Dante Alighieri" find="\bDante\s+Aligh(?:ei?ri|irei?)\b" replace="Dante Alighieri"/>
+<Typo word="Daughter" find="\b([Dd])au(?:gt?h|gt|hg?t)er(s?)\b" replace="$1aughter$2"/>
+<Typo word="Deal" find="\bdael(s?)\b" replace="deal$1"/><!--don't match the surnames Dael or Daels-->
+<Typo word="Deal" find="\b([Dd])ael(t|ings?)\b" replace="$1eal$2"/>
+<Typo word="(De)Caffeinate" find="\b([Dd]ec|C|c)af(?:fi?e?|ei)nat(e[ds]?|ing|ion)\b" replace="$1affeinat$2"/>
+<Typo word="Decide" find="\b([Dd])esi(de[ds]?|ding|sions?|dedly)\b" replace="$1eci$2"/>
+<Typo word="(Un)Decidedly" find="\b(D|d|[Uu]nd)ecidely\b" replace="$1ecidedly"/>
+<Typo word="(In)Decision" find="\b(D|d|[Ii]nd)e(?:cis|sc?isi|sici)(ons?|ve(ly)?)\b" replace="$1ecisi$2"/>
+<Typo word="Decrees" find="\b([Dd])ecress\b" replace="$1ecrees"/>
+<Typo word="Defensive" find="\b([Dd])efencive([a-z]*)\b" replace="$1efensive$2"/>
+<Typo word="Deficit" find="\b([Dd])efict(s?)\b" replace="$1eficit$2"/>
+<Typo word="(Re/Un)Define" find="\b(D|d|[Rr]ed|[Uu]nd)ef(?:fn?in|f?inin)(e[ds]?|ing|itions?)\b" replace="$1efin$2"/>
+<Typo word="(In)Definition" find="\b(D|d|[Ii]nd)ef(?:f?inet|ninit|f+inite?|inti|nint?i?)(ons?|ve(s?|ly|ness))\b" replace="$1efiniti$2"/>
+<Typo word="Degradation" find="\b([Dd])egredation\b" replace="$1egradation"/>
+<Typo word="Degrade" find="\b([Dd])egrat(e[ds]?|ing)\b" replace="$1egrad$2"/>
+<Typo word="Deity" find="\b([Dd])iet(y|ies)\b" replace="$1eit$2"/>
+<Typo word="Déjà Vu" find="\b([Dd])(?:éja|ejà)\s+([Vv])u\b" replace="$1éjà $2u"/><!--"deja vu" should not be replaced, see [[wikt:deja vu]]-->
+<Typo word="(D/R)elegate" find="\b([DdRr])elagat(e[ds]?|ing|ions?)\b" replace="$1elegat$2"/>
+<Typo word="Delineate" find="\b([Dd])eliniat([a-z]+)\b" replace="$1elineat$2"/>
+<Typo word="Delirious" find="\b([Dd])elerious(ly)?\b" replace="$1elirious$2"/>
+<Typo word="Delusively" find="\b([Dd])elusionally\b" replace="$1elusively"/>
+<Typo word="(Mis)Demeanor" find="\b(D|d|[Mm]isd)(?:amenou?|eme(?:no|a?ne))(rs?)\b" replace="$1emeano$2"/>
+<Typo word="(Un)Democrat" find="\b(D|d|[Uu]nd)e(?:o?m|mor)cra([ct][a-z]*)\b" replace="$1emocra$2"/>
+<Typo word="Demographic" find="\b([Dd])emographical\b" replace="$1emographic"/>
+<Typo word="Demolition" find="\b([Dd])emolisio(ns?)\b" replace="$1emolitio$2"/>
+<Typo word="(D/R)emonstrate" find="\b([DdRr])emo(?:str|n[st]r)at(e[ds]?|ing|ions?|ive(s?|ly)|ors?)\b" replace="$1emonstrat$2"/>
+<Typo word="Denigrate" find="\b([Dd])enegrat(e[ds]?|ing|ors?|ions?)\b" replace="$1enigrat$2"/>
+<Typo word="Dénouement" find="\b([Dd][eé])noument\b" replace="$1nouement"/><!--"denouement" should not be replaced, see [[wikt:denouement]]-->
+<Typo word="Department" find="\b([Dd])e(?:par|ptart?|aprt)me?nt(al(ly)?|s)?\b" replace="$1epartment$2"/>
+<Typo disabled="Département(al)" find="\b([Dd])epartement(ale?)?\b" replace="$1épartement$2"/><!--disabled per talk, departement is often department instead-->
+<Typo word="(In)Dependent" find="\b([Ii]nd|[Dd])(?:(?:en|i)?pen?d[ae]n|en?pen?dan|ependende|ndepeden)(t|tly|ce)\b(?<!\b[Dd]ependants?)(?<![Ll]'independance)" replace="$1ependen$2"/><!--don't match dependant, (L/l)'independance-->
+<Typo word="Depict" find="\b([Dd])espict(s?|ions?)\b" replace="$1epict$2"/>
+<Typo word="Derivative" find="\b([Dd])erivia?ti(ves?|ons?)\b" replace="$1erivati$2"/>
+<Typo word="Derive" find="\b([Dd])(?:iriv|eriviat)(e[ds]?|ing|ations?)\b" replace="$1eriv$2"/>
+<Typo word="Derogatory" find="\b([Dd])erog[io]tory\b" replace="$1erogatory"/>
+<Typo word="Derrière" find="\b([Dd])er+ier+e(s?)\b" replace="$1errière$2"/>
+<Typo word="Descendant" find="\b([Dd])e(?:scendand|[cs]end[ae]nt)(s?)\b" replace="$1escendant$2"/>
+<Typo word="Descriptor" find="\b([Dd])e(?:scr?|s?cri?)ipte(rs?)\b" replace="$1escripto$2"/>
+<Typo word="Desiccate" find="\b([Dd])es+[aei]cat(e[ds]?|ions?)\b" replace="$1esiccat$2"/>
+<Typo word="Design" find="\b([Dd])(?:[ei]s(?:sigi?n|gin|ing)|isign)(s?|ed|ers?|ing)\b" replace="$1esign$2"/>
+<Typo word="Desktop" find="\b([Dd])esktiop(s)?\b" replace="$1esktop$2"/>
+<Typo word="Desperate" find="\b([Dd])esp[ai]rat(e(ly)?|ion)\b" replace="$1esperat$2"/>
+<Typo word="Destroy" find="\b([Dd])est(?:ory|roi)(s?|ed|ers?|ing)\b" replace="$1estroy$2"/>
+<Typo word="(Non/In)Destruct" find="\b([Dd](?!istructs?\b)|[Ii]nd|[Nn]ond)ist?ruct([a-z]*)\b" replace="$1estruct$2"/><!--avoid "distruct" (district?)-->
+<Typo word="Detach" find="\b([Dd])etatch(e[ds]|ing|ments?|able)?\b" replace="$1etach$2"/>
+<Typo word="Detail" find="\b([Dd])e(?:tail|ati)l(s?|ed|ing)\b" replace="$1etail$2"/>
+<Typo word="(In)Detect" find="\b(D|d|[Ii]nd)ectect([a-z]*)\b" replace="$1etect$2"/>
+<Typo word="(Un)Detectable" find="\b([Uu]n|D|d)etecabl([ey])\b" replace="$1etectabl$2"/>
+<Typo word="Détente" find="\b([Dd])etente\b" replace="$1étente"/>
+<Typo word="Deterrent" find="\b([Dd])eter(?:e|r?a)n(ts?|ce)\b" replace="$1eterren$2"/>
+<Typo word="Deteriorate" find="\b([Dd]et)e(?:o?r|rior)iat(e[ds]?|ing|ion)\b" replace="$1eriorat$2"/>
+<Typo word="Determine" find="\b([Dd])et(?:ermin|[er]m)in(e[ds]?|ing|ate|ations?)\b" replace="$1etermin$2"/>
+<Typo word="(De/Nu)triment" find="\b([Dd]e|nu)tr[ea]men(ts?|tal)\b" replace="$1trimen$2"/>
+<Typo word="Devastate" find="\b([Dd]ev)(?:[ei]sta|asa?)t(e[ds]?|ing|ion)\b" replace="$1astat$2"/>
+<Typo word="Develop" find="\b([Dd]ev)(?!il per)(?:el+[aeiu]?|[aiou]?l+.?|ell.?)p(s?|e[dr]|ing|ment(s?|al(ly)?))\b" replace="$1elop$2"/>
+<Typo word="Developer" find="\b([Dd])evel(?:opo|eop)r(s)?\b" replace="$1eveloper$2"/>
+<Typo word="Development" find="\b([Dd])e(?:(?:vol[oe]|levo|vel)p[oe]?men|velope?mn)(ts?|tal)\b" replace="$1evelopmen$2"/>
+<Typo word="Devastate" find="\b([Dd])ev(?:[ei]st?|as)at(es?|ed|ing|ion)\b" replace="$1evastat$2"/>
+<Typo word="Device" find="\b([Dd])ivice(s)?\b" replace="$1evice$2"/>
+<Typo word="Diabolical" find="\b([Dd])i(?:ab|bo)lica(l(ly)?)\b" replace="$1iabolica$2"/>
+<Typo word="Diameter" find="\b([Dd])iamate(rs?)\b" replace="$1iamete$2"/>
+<Typo word="Diamonds" find="\b([Dd])iamons\b" replace="$1iamonds"/>
+<Typo word="Diarrhea" find="\b([Dd])iar[hr]ea\b" replace="$1iarrhea"/>
+<Typo word="Dichotomy" find="\b([Dd])ichtom(y|ies)\b" replace="$1ichotom$2"/>
+<Typo word="Didn't" find="\b([Dd])idint\b" replace="$1idn't"/>
+<Typo word="Differentiate" find="\b([Dd])iff?[aie]?ren(?:tiatiat|[cs]iat)(e[ds]?|ing|ions?)\b" replace="$1ifferentiat$2"/>
+<Typo word="Difficult" find="\b([Dd])if(?:f?iculi|icul|f?cul|f?i?cuil)t(l?y|ies)?\b" replace="$1ifficult$2"/>
+<Typo word="Diffuse" find="\b([Dd])ifus(er?[ds]?|ing|ely|eness|ion|ive)\b" replace="$1iffus$2"/>
+<Typo word="Dilapidate" find="\b([Dd])(?:e|il)lapidat(e[ds]?|ion)\b" replace="$1ilapidat$2"/>
+<Typo word="Dilemma" find="\b([Dd]il)l?e(?:nm|mn|mmm+)a(s)?\b" replace="$1emma$2"/>
+<Typo word="_Dilemma" find="\bdil(?:e|lem?)ma(s?)\b" replace="dilemma$1"/>
+<Typo word="Dimension" find="\b([Dd])ime(?:nt?|sn)ion(s?|al(ly|ity)?)\b" replace="$1imension$2"/>
+<Typo word="Diminish" find="\b([Dd])em+inish(e[ds]|ing|ments?|abl[ey])?\b" replace="$1iminish$2"/>
+<Typo word="Diminutive" find="\b([Dd])iminuiti([a-z]+)\b" replace="$1iminuti$2"/>
+<Typo word="Dining" find="\b([Dd])inning\s+([Aa]rea|[Cc]ar|[Cc]lub|[Hh]all|[Rr]oom|[Tt]able)(s?)\b" replace="$1ining $2$3"/>
+<Typo word="Diocese" find="\b([Dd])ioses(es?|an)\b" replace="$1ioces$2"/>
+<Typo word="Diplomacy" find="\b([Dd])iplomancy\b" replace="$1iplomacy"/>
+<Typo word="(In)Directly" find="\b(D|d|[Ii]nd)(?:riectl|irect)y\b" replace="$1irectly"/>
+<Typo word="Disability" find="\b([Dd])isibilit(y|ies)\b" replace="$1isabilit$2"/>
+<Typo word="Disappear" find="\b([Dd])is+ap+ear+(?<!isappear)(s?|ed|ing|ances?)\b" replace="$1isappear$2"/>
+<Typo word="Disaster" find="\b([Dd])iaste(rs?)\b" replace="$1isaste$2"/>
+<Typo word="Disastrous" find="\b([Dd])isa(?:ste|t)rous(ly)?\b" replace="$1isastrous$2"/>
+<Typo word="Disciple" find="\b([Dd])i[cs]ipl(es?|in[ei][a-z]*)\b" replace="$1iscipl$2"/>
+<Typo word="(Un)Discipline 1" find="\b(D|d|[Uu]nd)i(?:scpline?|s?ciplin)([ds])?\b" replace="$1iscipline$2"/>
+<Typo word="(Un)Discipline 2" find="\b(D|d|[Uu]nd)i[sc]ic?(plin[a-z]+)\b" replace="$1isci$2"/>
+<Typo word="Discography" find="\b([Dd])is(?:ograph|cograp)(y|ies)?\b" replace="$1iscograph$2"/>
+<Typo word="(Re)Discover" find="\b(D|d|[Rr]ed)i[cs]over([sy]?|e[dr]|ing|ies)\b" replace="$1iscover$2"/>
+<Typo word="Discrepancy" find="\b([Dd])iscrepen[cs](y|ies)\b" replace="$1iscrepanc$2"/>
+<Typo word="Discuss" find="\b([Dd])(?:i|es)cs?uss(e[ds]|ing|ions?)?\b" replace="$1iscuss$2"/>
+<Typo word="Disdain" find="\b([Dd])istain(s?|ed|ing|ful(ly|ness)?)\b" replace="$1isdain$2"/>
+<Typo word="(Dis)enchanted" find="\b([Dd]ise|E|e)nchanged\b" replace="$1nchanted"/>
+<Typo word="Disguise" find="\b([Dd])i(?:sq|g)uis(e[ds]?|ing)\b" replace="$1isguis$2"/>
+<Typo word="Disparagingly" find="\b([Dd])isparingly\b" replace="$1isparagingly"/>
+<Typo word="Display" find="\b([Dd])i(?:apla|spal)y(s?|ed)\b" replace="$1isplay$2"/>
+<Typo word="displease" find="\bunplease([ds])?\b" replace="displease$1"/>
+<Typo word="Displease" find="\bUnplease([ds])?\b" replace="Displease$1"/>
+<Typo word="Dissident" find="\b([Dd])is(?:(?:|ss+)[aeio]d[ae]|s+[aeo]d[ae]|s+[aeio]da)n(ts?|ce)\b" replace="$1issiden$2"/>
+<Typo word="(In)Distinct_" find="\b(D|d|[Ii]nd)is(?:ctinc|tic|inc|t[ai]n(?=ti))t(i(ve(ly)?|on)|ly)?\b" replace="$1istinct$2"/><!--Distin is a name-->
+<Typo word="(Un)Distort" find="\b(D|d|[Uu]nd)is(ort[a-z]+)\b" replace="$1ist$2"/>
+<Typo word="Distribute" find="\b([Dd])i(?:si)?tribut(e[ds]?|ing|ors?|ions?)\b" replace="$1istribut$2"/>
+<Typo word="Distribution" find="\b([Dd])istribusion\b" replace="$1istribution"/>
+<Typo word="District" find="\b([Rr]ed|D|d)is(?:rt?ic?t|t?ri[ct]|itrict|trct)(s?|ed|ing)\b" replace="$1istrict$2"/>
+<Typo word="Divide_" find="\bdevi(de[drs]?|ding|sions?)\b" replace="divi$1"/><!--Do not match surname Devide-->
+<Typo word="Division" find="\b([Dd])iv(?:is|si)(ons?)\b" replace="$1ivisi$2"/>
+<Typo word="Doctrines" find="\b([Dd])oc[rt]ine(s)?\b" replace="$1octrine$2"/>
+<Typo word="(Un)Document" find="\b(D|d|[Uu]nd)(?:occ?u(?:eme?nt|mnet|metn|mant)|(?:oc|c*)cument)([a-z]*)\b" replace="$1ocument$2"/>
+<Typo word="Does" find="\b([Dd])oe(?:ns|se)\b" replace="$1oes"/>
+<Typo word="Doesn't" find="\b([Dd])o(?:ens|se?n)'?t\b(?<!Wilma Doesnt)" replace="$1oesn't"/><!--Do not match name Wilma Doesnt-->
+<Typo word="Doing" find="\b([Dd])o(?:ign|img|ind|nig)\b" replace="$1oing"/>
+<Typo word="Dollar" find="\b([Dd])oller(s)?\b(?<!Mikhail Doller)" replace="$1ollar$2"/><!--Not [[Mikhail Doller]]-->
+<Typo word="Don't" find="\b([Dd])ont\b'?(?!\s+(ils?|elles?|les?|la|des?|une?)\b)" replace="$1on't"/>
+<!--avoid correct French by use of lookahead for French words-->
+<Typo word="Double" find="\b([Dd])oulbe(d?|s)\b" replace="$1ouble$2"/>
+<Typo word="Dramatic" find="\b([Dd])ramtic(ally|s?)\b" replace="$1ramatic$2"/>
+<Typo word="Draughtsman" find="\b([Dd])ra(f|ugh)t(m[ae]n[a-z]*|wom[ae]n)\b" replace="$1ra$2ts$3"/>
+<Typo word="Dravidian" find="\b([Dd])ravadian\b" replace="$1ravidian"/>
+<Typo word="Dream" find="(?!\bDeram\b)\b([Dd])eram(s?|ing|ers?)\b" replace="$1ream$2"/><!--don't fix Deram (Records)-->
+<Typo word="Dreams" find="\b([Dd])(?:erams|reasm)\b" replace="$1reams"/>
+<Typo word="Drink" find="\b([Dd])rnik(s?|ers?|ing)\b" replace="$1rink$2"/>
+<Typo word="Drummer" find="\b([Dd])rum(ers?|ing)\b" replace="$1rumm$2"/>
+<Typo word="Dumbbell" find="\b([Dd])umbell(s)?\b" replace="$1umbbell$2"/>
+<Typo word="Duplicate" find="\b([Dd])upil?cat([a-z]+)\b" replace="$1uplicat$2"/>
+<Typo word="du Pré" find="\b(Jacqueline|Hil+ary|Iris)\s+[dD]u\s*[pP]r(?:é?eé?|e?èe?)\b" replace="$1 du Pré"/>
+<Typo word="During" find="\b([Dd])u(?:ri|rrin|t?in)g\b" replace="$1uring"/>
+<Typo word="Durrës" find="\bDurres\b" replace="Durrës"/>
+<Typo word="(D/L/T)ying" find="\b([DdLlTt])ieing\b" replace="$1ying"/>

@@ -1,0 +1,16 @@
+<Typo word="(C/Sh/W)ouldn't" find="\b([CcWw]|[Ss]h)ou(dln[’'`]?|ldnt)t\b" replace="$1ouldn't"/>
+<Typo word="e.g." find="\b([Ee]\.g)(,|\s)" replace="$1.$2"/>
+<Typo word="(H/Sh/W)e'(d/ll/s)" find="\b([Ss]?[HhWw]e);(d|ll|s)\b" replace="$1'$2"/>
+<Typo word="(T/W)Here'(d/ll/s/ve)" find="\b(H|[TtWw]h)ere;(d|ll|s|ve)\b" replace="$1ere'$2"/>
+<Typo word="I(t)'(d/m/s/ll)" find="\b([Ii]t?);([dms]|ll)\b" replace="$1'$2"/>
+<Typo word="Its (after)" find="\b([Aa](?:round|[lm]ong(?:st)?|bove|t|re)|[Bb](?:eyond|[ey]|etween|elow|oth)|[Cc]elebrat(?:e[ds]?|ing)|[Dd]uring|[Ff]rom|[Ii]n(?:to)?|[Kk]eep|[Mm]ade|[Oo](?:[fn]|ver|nto)|[Tt](?:hrough(?:out)?|o)|[Uu](?:p(?:on)?|nder(?:neath)?)|[Ww]ith(?:in|out)?)\s+it[’'`]s\b" replace="$1 its"/>
+<Typo word="Its (before)" find="\b([Ii])t[’'`]s\s+(apex|causes?|doors|downfall|founders?|inceptions?|origins?|own|pinnacle|policies|reasons?|zenith)\b" replace="$1ts $2"/>
+<Typo word="-en't" find="\b([Aa]r|[Hh]av|[Ww]er)n[’'`;]t\b" replace="$1en't"/>
+<Typo word="-n't" find="\b([Cc]a|([CcWw]|[Ss]h)ould|[DdWw]o|[Dd](id|oes)|[Hh]a(s|d|ve)|[Ww](as|ere))(?:[’'`]n|n;)t\b" replace="$1n't"/>
+<Typo word="there's" find="\btheres\b" replace="there's"/><!--don't find place name Theres-->
+<Typo word="They'll" find="\b([Tt])(?:yhe|ehy|hey)(?:ll|;l+)\b" replace="$1hey'll"/>
+<Typo word="They'(r/v)e" find="\b([Tt])hey;?([rv])e?\b" replace="$1hey'$2e"/>
+<Typo word="W(as/ere)n't" find="\b([Ww])(as|ere)[’'`]?nt\b" replace="$1$2n't"/>
+<Typo word="Weren't" find="\b([Ww])er[en][’'`]?n?t\b" replace="$1eren't"/>
+<Typo word="Wh(at/en/o/y)'(d/ll/re/s/ve)" find="\b([Ww])h(at|en|o|y);(d|ll|[rv]e|s)\b" replace="$1h$2'$3"/>
+<Typo word="Y'all" find="\b([Yy])a[’'`]ll\b" replace="$1'all"/>

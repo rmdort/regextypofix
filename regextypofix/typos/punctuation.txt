@@ -1,0 +1,3 @@
+<Typo word="'s" find="(\w);s\b(?<!&[#\w]{1,99};s)" replace="$1's"/><!--semicolon for apostrophe; allow &xxx; (HTML entities)-->
+<Typo word="Hers/Ours\Theirs/Yours" find="\b([Hh]e|Ou|[Tt]hei|[Yy]?ou)r's\b" replace="$1rs"/>
+<Typo word="e.g." find="\b([Ee])(?:g\.?|\.\s*g)([\s,:;-]|'')(?!White|veit|River)" replace="$1.g.$2"/>

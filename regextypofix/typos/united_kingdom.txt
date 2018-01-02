@@ -1,0 +1,7 @@
+<Typo word="Britain" find="\b(?:br(?:it?|ri)?t(ains?|ons?|ish(ers?|isms?|ly|ness)?|icisms?|ney|pop|tany)|[Bb]rist(ish)(ers|ness)?)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Brit$1$3$4"/>
+<Typo word="Engl(and/ish)" find="\b(?:eng?|En)(land|lish((wo)?m[ae]n)?)(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Eng$1"/>
+<Typo word="Great Britain" find="\bgreat\s+[Bb]ritain(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Great Britain"/>
+<Typo word="Isle of Man" find="\b[Ii]sle\s+of\s+man" replace="Isle of Man"/>
+<Typo word="Manx((wo)man)" find="\bmanx((wo)?m[ae]n)?(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Manx$1"/>
+<Typo word="Scot(land/s/sman/swoman/tish)" find="\bscot?(lands?|s(?:(?:wo)?m[ae]ns?)?|tish)\b(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Scot$1"/><!--No domains, URLs nor scotch-->
+<Typo word="Welsh" find="\bwelsh(?![^\s\.]*\.\w)(?<!\.[^\s\.]{0,999})" replace="Welsh"/>

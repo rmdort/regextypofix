@@ -1,0 +1,20 @@
+<Typo word="Jalapeño" find="\b([Jj])alape[nńň]o(s)?\b(?!\s[Rr]ecords?)\b" replace="$1alapeño$2"/><!--Not Jalapeno Records-->
+<Typo word="Janáček" find="\bJan(?:[aàäãǎāăá]c|[aàäãǎāă]č)ek\b" replace="Janáček"/>   
+<Typo word="Japanese" find="\b[Jj]ap(?:anes|enese)\b" replace="Japanese"/>
+<Typo word="Jardinière" find="\b([Jj])ardiniere\b" replace="$1ardinière"/>
+<Typo word="Jeopardy" find="\b([Jj])eapardy\b" replace="$1eopardy"/>
+<Typo disabled="Jewel(le)ry" find="\b([Jj])ewl(le)?e?ry\b" replace="$1ewel$2ry"/>
+<Typo disabled="Jewellery" find="\b([Jj])ewe(?:le|lla)ry\b" replace="$1ewellery"/>
+<Typo word="Joan Miró" find="\bJoan\s+Miro\b" replace="Joan Miró"/>
+<Typo word="Johnnie" find="\bjohn+ie\b" replace="Johnnie"/>
+<Typo word="José Ferrer" find="\bJos[eè]\s+Ferrer\b" replace="José Ferrer"/>
+<Typo word="Joseph" find="\b[Jj]o(?:spe|esp)h\b" replace="Joseph"/>
+<Typo word="Journ(al/ey)" find="\b([Jj])ounr?(al(s?|is[mt]s?|l?ing)|ey(s?|ed|ing|m[ae]n))\b" replace="$1ourn$2"/>
+<Typo word="Journeyed" find="\b([Jj])our?nie?(ed|s)\b" replace="$1ourney$2"/>
+<Typo word="Judaism" find="\b(?:[Jj]uada?ism|[Jj]ewism)\b" replace="Judaism"/>
+<Typo word="Judg(e)ment" find="\b([Jj])ugd?(e)?ment(s?|al(ly)?)\b(?<!\b[Ll]e\s{1,9}[Jj]ugement\b)" replace="$1udg$2ment$3"/><!--Not Le jugement-->
+<Typo word="Judicial" find="\b([Jj])ud(?:uci|ic|isu)a(l|ry)\b" replace="$1udicia$2"/>
+<Typo word="(Jun/Sen)ior" find="\b([Jj]u|[Ss]e)(?:ino|noi)r(s?|ity)\b" replace="$1nior$2"/>
+<Typo word="Jurisdiction" find="\b([Jj])uri(?:d|st)iction(s|ally|al)?\b" replace="$1urisdiction$2"/>
+<Typo word="Just(ify)" find="\b([Jj])s(?:ut|tu)(ice|ly|if(?:i[ace][a-z]+|y))?\b" replace="$1ust$2"/>
+<Typo word="Juvenile" find="\b([Jj])uv[ai]nil(e[a-z]*|ity|ia)\b" replace="$1uvenil$2"/>
