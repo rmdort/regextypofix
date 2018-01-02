@@ -8,7 +8,7 @@ logging.basicConfig(
   format='%(message)s'
 )
 
-def create_dictionary ():
+def create_dictionary (typoFolder = None):
   """
   Loads all typo files and converts to a array
   dictionary = [
@@ -16,7 +16,7 @@ def create_dictionary ():
   ]
   """
   regex = r"\s(.*?)\=\"(.*?)\""
-  path = os.path.join(os.path.dirname(__file__), 'typos')
+  path = os.path.join(os.path.dirname(__file__), 'typos') if typoFolder is None else typoFolder
   text_files = [os.path.join(path, f) for f in os.listdir(path) if f.endswith('.txt')]
   dictionary = []
   for file in text_files:
@@ -36,10 +36,13 @@ def create_dictionary ():
             t.append(m)
 
         dictionary.append(t)
+  logging.info('Total words in dictionary %s', len(dictionary))
   return dictionary
 
-def correct (text):
-  global dictionary
+def correct (text, dictionary=None):
+  global default_dictionary
+  if dictionary is None:
+    dictionary = default_dictionary
   for word, find, replace in dictionary:
     try:
       text, doneFlag = find.subn(replace, text)
@@ -49,9 +52,8 @@ def correct (text):
       log.error("error replacing %s (%r=>%r): %s", word, find, replace, err)
   return text
 
-# Create a dictionary upon import
-dictionary = create_dictionary()
-logging.info('Total words in dictionary %s', len(dictionary))
+# Create a default dictionary upon import
+default_dictionary = create_dictionary()
 
 if __name__ == "__main__":
-  correct('whiel selled')
+  print (correct('whiel selled'))
