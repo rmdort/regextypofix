@@ -1,0 +1,7 @@
+<Typo word="-n't" find="\b(([CcWw]|[Ss]h)ould|[Dd](id|o|oes)|[Hh]a(s|d|ve)|[Ww](as|ere))nt\b" replace="$1n't"/><!--don't change cant or wont-->
+<!--Typo word="cannot" find="\bcan[’'`]t\b" replace="cannot"/><!--don't change uppercase titles-->
+<!--Typo word="will not" find="\bwon[’'`]t\b" replace="will not"/><!--don't change uppercase titles-->
+<!--Typo word=" not" find="\b(are|(c|sh|w)ould|d(id|o|oes)|ha([ds]|ve)|is|m(igh|us)t|w(as|ere))n[’'`]t\b" replace="$1 not"/><!--don't change uppercase titles, can't and won't have separate rules-->
+<!--Typo word=" are" find="\b(they|w(e|hat|ho)|you)[’'`]re\b" replace="$1 are"/><!--don't change uppercase titles-->
+<!--Typo word=" have" find="\b((c|sh|w)ould|they|wh(at|o)|you)[’'`]ve\b" replace="$1 have"/><!--don't change uppercase titles-->
+<!--Typo word=" will" find="\b(s?he|they|wh(at|o)|you)[’'`]ll\b" replace="$1 will"/><!--don't change uppercase titles-->
