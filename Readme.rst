@@ -1,21 +1,17 @@
-# RegEx Typo Fix
-
+RegEx Typo Fix
+====
 Simple Regex spellchecker based on Wikipedia's `RegExTypoFix` project
 
-https://en.m.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser/Typos
+.. _RegExTypoFix: https://en.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser/Typos
 
 The dictionary prepared by wikipedia contains most common incorrectly spelled words.
 
-## Usage
+Usage
+-----
 
-````
-pip install regextypofix
-````
+The easiest way to install it is using pip::
 
-````
-from regextypofix import correct
+    pip install regextypofix
 
-print (correct('whiel sold'))
-````
-
-More docs coming soon ...
+    from regextypofix import correct
+    print (correct('whiel sold'))
