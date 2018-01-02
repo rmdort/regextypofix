@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='regextypofix',
-    version='1.0.2',
+    version='1.0.3',
 
     # PyPI metadata
     author='Vinay M',
@@ -13,7 +13,7 @@ setup(
     download_url='https://pypi.python.org/pypi/regextypofix/',
     license='MIT, CC-BY-SA',
     description='Simple Regex spellchecker based on Wikipedia\'s RegExTypoFix project',
-    long_description=open('README.rst').read(),
+    long_description=open('Readme.rst').read(),
     platforms='any',
     keywords='typo spelling grammar text',
     classifiers=[
