@@ -3,7 +3,7 @@ RegEx Typo Fix
 
 Regex spellchecker based on Wikipedia's RegExTypoFix_ project
 
-The dictionary prepared by wikipedia contains most common incorrectly spelled words.
+The dictionary prepared by wikipedia contains most common mis-spelled words.
 
 Usage
 -----
